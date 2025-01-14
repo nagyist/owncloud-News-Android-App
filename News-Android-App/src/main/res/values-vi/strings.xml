@@ -84,6 +84,7 @@
     <string name="feed_move_list_description">Chọn thư mục để di chuyển nguồn dữ liệu vào</string>
     <string name="move_feed_root_folder">Thư mục gốc</string>
 
+
     <!-- Strings related to FolderOptionsDialogFragment (Rename/Remove folder) -->
     <string name="action_folder_remove">Xoá thư mục</string>
     <string name="action_folder_rename">Đổi tên thư mục</string>
@@ -156,7 +157,6 @@
     <string name="pref_title_MarkAsReadWhileScrolling">Đánh dấu đã đọc trong khi di chuyển</string>
     <string name="pref_title_ShowFastActions">Kích hoạt các chức năng truy cập nhanh</string>
     <string name="pref_title_OpenInBrowserDirectly">Bỏ qua mục hiển thị chi tiết và mở bài báo trong trình duyệt</string>
-
     <!-- MemorizingTrustManager -->
     <string name="mtm_accept_cert">Chấp nhận Certificate không biết nguồn gốc ?</string>
     <string name="mtm_decision_always">Luôn luôn</string>
@@ -170,7 +170,8 @@
     <string name="exit_playback">Thoát trình phát</string>
     <string name="podcast_playback_speed_dialog_title">Tốc độ phát</string>
     <string name="notification_downloading_podcast_title">Đang tải xuống podcast</string>
-
+    <string name="dialog_podcast_remove_title">Bạn chắc chắn?</string>
+    <string name="dialog_podcast_remove_confirm">Xoá</string>
 
     <!-- Settings for About -->
     <string name="pref_header_about">Thông tin</string>

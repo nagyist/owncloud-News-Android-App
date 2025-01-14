@@ -18,6 +18,7 @@
     <string name="message_bar_reload">Recarregar</string>
     <string name="allUnreadFeeds">Todos itens não lidos</string>
     <string name="starredFeeds">Itens vistos</string>
+    <string name="downloadedPodcasts">Podcasts baixados</string>
     <string name="title_activity_new_feed">Adicionar novo feed</string>
 
     <string name="menu_update">Atualizar</string>
@@ -31,6 +32,7 @@
     <string name="action_starred">Vistos</string>
     <string name="action_read">Ler</string>
     <string name="action_playPodacst">Ouvir o Podcast</string>
+    <string name="action_removePodcast">Remover Mídia de Podcast</string>
     <string name="action_openInBrowser">Abrir no navegador</string>
     <string name="action_Share">Compartilhar</string>
     <string name="action_login">Configurações do servidor</string>
@@ -84,11 +86,15 @@
     <string name="action_feed_rename">Renomear Alimentação</string>
     <string name="action_feed_move">Mover Feed</string>
     <string name="action_feed_notification_settings">Configurações de notificação</string>
+    <string name="action_feed_open_in">Configurações de abertura</string>
+    <string name="action_feed_open_in_general_setting">Usar configuração geral</string>
+    <string name="action_feed_open_in_detailed_view">Visualização detalhada</string>
     <string name="feed_remove_button">Remover</string>
     <string name="feed_rename_button">Renomear</string>
     <string name="confirm_feed_remove">Você realmente deseja remover esta alimentação? Isso não pode ser desfeito!</string>
     <string name="feed_move_list_description">Selecione a pasta para mover o feed</string>
     <string name="move_feed_root_folder">Pasta raiz</string>
+
 
     <!-- Strings related to FolderOptionsDialogFragment (Rename/Remove folder) -->
     <string name="action_folder_remove">Remover pasta</string>
@@ -168,6 +174,7 @@
     <string name="pref_title_MarkAsReadWhileScrolling">Marcar como lido enquanto navegar</string>
     <string name="pref_title_ShowFastActions">Ativar as funções de acesso rápido</string>
     <string name="pref_title_OpenInBrowserDirectly">Saltar exibição detalhada e abrir o artigo no navegador</string>
+    <string name="pref_title_BackButtonOpensDrawer">O botão Voltar abre a gaveta</string>
 
     <!-- MemorizingTrustManager -->
     <string name="mtm_accept_cert">Aceita Certificado Desconhecido?</string>
@@ -182,7 +189,11 @@
     <string name="exit_playback">Sair</string>
     <string name="podcast_playback_speed_dialog_title">Velocidade do Playback</string>
     <string name="notification_downloading_podcast_title">Baixando podcast</string>
-
+    <string name="dialog_podcast_remove_title">Você tem certeza?</string>
+    <string name="dialog_podcast_remove_body">Você deseja remover a mídia baixada para %1$s?</string>
+    <string name="dialog_podcast_status_failed">Falha ao remover mídia de %1$s</string>
+    <string name="dialog_podcast_status_success">A mídia de %1$s foi removida</string>
+    <string name="dialog_podcast_remove_confirm">Remover</string>
 
     <!-- Settings for About -->
     <string name="pref_header_about">Sobre</string>
@@ -194,6 +205,8 @@
     <string name="pref_contribute_summary">Obter o código-fonte</string>
     <string name="pref_privacy">Privacidade</string>
     <string name="pref_privacy_summary">Política de privacidade do Android para o Nextcloud Notícias</string>
+    <string name="pref_news_policy">Contate-nos / Política de Notícias</string>
+    <string name="pref_news_policy_summary">Política de notícias do Android Nextcloud News / Entre em contato conosco</string>
     <string name="pref_version">Aplicativo Android de Notícias Nextcloud</string>
 
 

@@ -8,7 +8,6 @@ import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.v4.media.session.MediaControllerCompat;
 import android.support.v4.media.session.PlaybackStateCompat;
 import android.util.Log;
@@ -29,6 +28,7 @@ import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 
 import java.io.File;
+import java.util.function.Consumer;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -295,7 +295,7 @@ public abstract class PodcastFragmentActivity extends AppCompatActivity implemen
     public void openPodcast(final RssItem rssItem) {
         final PodcastItem podcastItem = DatabaseConnectionOrm.ParsePodcastItemFromRssItem(this, rssItem);
 
-        File file = new File(PodcastDownloadService.getUrlToPodcastFile(this, podcastItem.link, false));
+        File file = new File(PodcastDownloadService.getUrlToPodcastFile(this, podcastItem.fingerprint, podcastItem.link, false));
         if(file.exists()) {
             podcastItem.link = file.getAbsolutePath();
             openMediaItem(podcastItem);
@@ -317,6 +317,34 @@ public abstract class PodcastFragmentActivity extends AppCompatActivity implemen
 
             alertDialog.show();
         }
+    }
+
+
+    public void removePodcastMedia(final RssItem rssItem, final Consumer<Boolean> callback) {
+        final PodcastItem podcastItem = DatabaseConnectionOrm.ParsePodcastItemFromRssItem(this, rssItem);
+        File file = new File(PodcastDownloadService.getUrlToPodcastFile(this, podcastItem.fingerprint, podcastItem.link, false));
+
+        if (!file.exists()) {
+            callback.accept(true);
+        }
+
+        AlertDialog.Builder alertDialog = new AlertDialog.Builder(this)
+                .setNegativeButton(getString(R.string.dialog_podcast_remove_confirm), (dialogInterface, i) -> {
+                    boolean success = file.delete() && file.getParentFile().delete(); // remove audio file and parent folder
+                    if (!success) {
+                        Toast.makeText(PodcastFragmentActivity.this, getString(R.string.dialog_podcast_status_failed, podcastItem.title), Toast.LENGTH_SHORT).show();
+                    } else {
+                        Toast.makeText(PodcastFragmentActivity.this, getString(R.string.dialog_podcast_status_success, podcastItem.title), Toast.LENGTH_SHORT).show();
+                    }
+                    callback.accept(success);
+                })
+                .setNeutralButton(getString(android.R.string.cancel), (dialogInterface, i) -> {
+                    callback.accept(false);
+                })
+                .setTitle(getString(R.string.dialog_podcast_remove_title))
+                .setMessage(getString(R.string.dialog_podcast_remove_body, podcastItem.title));
+
+        alertDialog.show();
     }
 
 

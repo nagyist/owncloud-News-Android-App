@@ -53,11 +53,11 @@ public class PodcastArrayAdapter extends ArrayAdapter<PodcastItem> {
 
             Toast.makeText(getContext(), "Starting download.. Please wait", Toast.LENGTH_SHORT).show();
 
-            eventBus.post(new StartDownloadPodcast() {{ podcast = podcastItem; }});
+            eventBus.post(new StartDownloadPodcast(podcastItem));
         });
 
         holder.binding.flDeletePodcastWrapper.setOnClickListener(view13 -> {
-            if(NewsFileUtils.deletePodcastFile(getContext(), podcastItem.link)) {
+            if(NewsFileUtils.deletePodcastFile(getContext(), podcastItem.fingerprint, podcastItem.link)) {
                 podcastItem.offlineCached = false;
                 podcastItem.downloadProgress = PodcastItem.DOWNLOAD_NOT_STARTED;
                 notifyDataSetChanged();

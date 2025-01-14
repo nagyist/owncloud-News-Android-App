@@ -87,6 +87,7 @@
     <string name="feed_move_list_description">Изберете в коя папка да бъде преместена емисията</string>
     <string name="move_feed_root_folder">Основна папка</string>
 
+
     <!-- Strings related to FolderOptionsDialogFragment (Rename/Remove folder) -->
     <string name="action_folder_remove">Премахване на папка</string>
     <string name="action_folder_rename">Преименуване на папка</string>
@@ -161,7 +162,6 @@
     <string name="pref_title_MarkAsReadWhileScrolling">Означаване като \"Прочетена\" след скролиране</string>
     <string name="pref_title_ShowFastActions">Активиране на функциите за бърз достъп</string>
     <string name="pref_title_OpenInBrowserDirectly">Без подробен изглед, директно отваряне на статиите в браузъра</string>
-
     <!-- MemorizingTrustManager -->
     <string name="mtm_accept_cert">Приемане на неизвестни сертификати?</string>
     <string name="mtm_decision_always">Винаги</string>
@@ -175,7 +175,8 @@
     <string name="exit_playback">Излизане от плейъра</string>
     <string name="podcast_playback_speed_dialog_title">Скорост на възпроизвеждане</string>
     <string name="notification_downloading_podcast_title">Изтегляне на подкаст</string>
-
+    <string name="dialog_podcast_remove_title">Сигурни ли сте?</string>
+    <string name="dialog_podcast_remove_confirm">Премахване</string>
 
     <!-- Settings for About -->
     <string name="pref_header_about">Относно</string>

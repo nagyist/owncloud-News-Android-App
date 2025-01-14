@@ -46,7 +46,6 @@
     <plurals name="notification_new_items_ticker">
         <item quantity="one">יש לך פריט חדש %d שלא נקרא</item>
         <item quantity="two">יש לך %dפריטים חדשים שלא נקראו </item>
-        <item quantity="many">יש לך %d פריטים חדשים שלא נקראו</item>
         <item quantity="other">יש לך %d פריטים חדשים שלא נקראו</item>
     </plurals>
     <plurals name="notification_new_items_text">
@@ -89,6 +88,7 @@
     <string name="feed_move_list_description">לבחור תיקייה אליה להעביר את ההזנה</string>
     <string name="move_feed_root_folder">תיקיית בסיס</string>
 
+
     <string name="action_folder_rename">שינוי שם תיקייה</string>
     <string name="folder_remove_button">הסרה</string>
     <string name="folder_rename_button">שינוי שם</string>
@@ -113,7 +113,6 @@
     <plurals name="toast_downloaded_x_items">
         <item quantity="one">התקבל פריט ישן %d</item>
         <item quantity="two">התקבלו %d פריטים ישנים</item>
-        <item quantity="many">התקבלו %d פריטים ישנים</item>
         <item quantity="other">התקבלו %d פריטים ישנים</item>
     </plurals>
     <string name="toast_no_more_downloads_available">אין פריטים נוספים זמינים</string>
@@ -143,7 +142,6 @@
     <string name="pref_title_MarkAsReadWhileScrolling">סימון כנקרא בזמן הגלילה</string>
     <string name="pref_title_ShowFastActions">הפעלת תכונות גישה מהירה</string>
     <string name="pref_title_OpenInBrowserDirectly">לדלג על התצוגה המפורטת ולפתוח את הכתבה בדפדפן</string>
-
     <!-- MemorizingTrustManager -->
     <string name="mtm_accept_cert">לקבל אישור בלתי ידוע?</string>
     <string name="mtm_decision_always">תמיד</string>
@@ -157,7 +155,8 @@
     <string name="exit_playback">צא.י מנגן</string>
     <string name="podcast_playback_speed_dialog_title">מהירות נגינה</string>
     <string name="notification_downloading_podcast_title">הפודקאסט מתקבל</string>
-
+    <string name="dialog_podcast_remove_title">האם הינך בטוח?</string>
+    <string name="dialog_podcast_remove_confirm">הסרה</string>
 
     <!-- Settings for About -->
     <string name="pref_header_about">על אודות</string>

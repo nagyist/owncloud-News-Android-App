@@ -7,7 +7,7 @@
     <string name="empty_view_content_action">Потягніть вниз, щоб оновити</string>
     <string name="toast_GettingMoreItems">Розпочато звантаження додаткових елементів. Будь ласка, зачекайте …</string>
     <string name="no_wifi_available">Відсутнє WiFi з\'єднання</string>
-    <string name="do_you_want_to_download_without_wifi">Бажаєте завантажити зображення без підключення до Wi-Fi?</string>
+    <string name="do_you_want_to_download_without_wifi">Бажаєте звантажити зображення без підключення до Wi-Fi?</string>
     <string name="current_version">Ви використовуєте версію %s</string>
     <string name="widget_header">Новини для Nextcloud</string>
     <plurals name="message_bar_new_articles_available">
@@ -18,7 +18,7 @@
     </plurals>
     <string name="message_bar_reload">Перезавантажити</string>
     <string name="allUnreadFeeds">Всі непрочитані</string>
-    <string name="starredFeeds">Улюблені</string>
+    <string name="starredFeeds">Із зірочкою</string>
     <string name="title_activity_new_feed">Додати нову стрічку</string>
 
     <string name="menu_update">Оновити</string>
@@ -42,10 +42,10 @@
     <string name="action_add_new_folder">Додати новий каталог</string>
     <string name="action_textToSpeech">Читати</string>
     <string name="action_search">Пошук</string>
-    <string name="action_download_articles_offline">Завантажуйте статті в автономному режимі</string>
+    <string name="action_download_articles_offline">Зберігайте статті в автономному режимі</string>
     <!-- notifications -->
-    <string name="notification_download_articles_offline">Завантаження статей для доступу в автономному режимі.</string>
-    <string name="notification_download_images_offline">Завантаження зображень для використання в автономному режимі</string>
+    <string name="notification_download_articles_offline">Збереження статей для доступу в автономному режимі.</string>
+    <string name="notification_download_images_offline">Збереження зображень для використання в автономному режимі</string>
     <plurals name="notification_new_items_ticker">
         <item quantity="one">У вас є %d новий непрочитаний елемент</item>
         <item quantity="few">У вас є %d нових непрочитаних елементи</item>
@@ -74,11 +74,11 @@
     <string name="action_link_share">Поділитися посиланням</string>
     <string name="action_link_open">Відкрити посилання у переглядачі</string>
     <string name="action_link_copy">Копіювати посилання</string>
-    <string name="toast_img_download_wait">Завантаження. Будь ласка, зачекайте…</string>
+    <string name="toast_img_download_wait">Звантаження. Будь ласка, зачекайте…</string>
     <string name="toast_img_saved">Зображення збережено</string>
     <string name="toast_img_notwriteable">Помилка із записом зображення.</string>
     <string name="toast_copied_to_clipboard">Скопійовано в буфер обміну</string>
-    <string name="error_download_failed">Завантаження не вдалося</string>
+    <string name="error_download_failed">Звантаження не вдалося</string>
     <string name="intent_title_share">Поділитися через</string>
 
 
@@ -93,12 +93,13 @@
     <string name="feed_move_list_description">Оберіть каталог, до якого перемістити стрічку</string>
     <string name="move_feed_root_folder">Кореневий каталог</string>
 
+
     <!-- Strings related to FolderOptionsDialogFragment (Rename/Remove folder) -->
     <string name="action_folder_remove">Вилучити каталог</string>
     <string name="action_folder_rename">Перейменувати каталог</string>
     <string name="folder_remove_button">Вилучити</string>
     <string name="folder_rename_button">Перейменувати</string>
-    <string name="confirm_folder_remove">Ви дійсно хочете видалити цю папку? Це не можна скасувати!</string>
+    <string name="confirm_folder_remove">Дійсно вилучити цей каталог? Це не можна буде скасувати!</string>
 
     <!-- Strings related to NewsReaderListDialogFragment (Notification Settings) -->
     <string name="notification_feed_unique">Отримувати унікальні сповіщення для цієї стрічки</string>
@@ -108,7 +109,7 @@
     <!-- Strings related to AddFolderDialogFragment (Add Folder) -->
     <string name="folder_add_button">Додати</string>
     <string name="hint_folder_name">Назва каталогу</string>
-    <string name="folder_already_exists">Ця папка вже існує</string>
+    <string name="folder_already_exists">Такий каталог вже присутній</string>
 
     <!-- Strings related to login -->
     <string name="login_manual">Вхід вручну</string>
@@ -130,7 +131,7 @@
         <item quantity="one">Завантажено %d старий елемент</item>
         <item quantity="few">Завантажено %d старих елементи</item>
         <item quantity="many">Завантажено %d старих елементів</item>
-        <item quantity="other">Завантажено %d старих елементів</item>
+        <item quantity="other">Звантажено %d старих елементів</item>
     </plurals>
     <string name="toast_no_more_downloads_available">Більше немає об\'єктів</string>
     <plurals name="fetched_items_so_far">
@@ -160,6 +161,8 @@
 
     <string name="pref_general_search_in_title">Назва</string>
     <string name="pref_general_search_in_body">Тіло</string>
+    <string name="pref_general_search_in_both">Обидва</string>
+
     <string name="dialog_clearing_cache">Очистити кеш</string>
     <string name="dialog_clearing_cache_please_wait">Очищення кешу. Будь ласка, зачекайте …</string>
     <string name="reset_cache_unsaved_changes">Є несинхронізовані зміни. Ви дійсно бажаєте очистити кеш?</string>
@@ -169,9 +172,8 @@
     <string name="pref_title_DisableHostnameVerification">Вимкнути перевірку доменного ім\'я</string>
     <string name="pref_title_NavigateWithVolumeButtons">Керування кнопками гучності</string>
     <string name="pref_title_MarkAsReadWhileScrolling">Помічати прочитаними при прокрутці</string>
-    <string name="pref_title_ShowFastActions">Активувати функції швидкого доступу</string>
+    <string name="pref_title_ShowFastActions">Увімкнути функції швидкого доступу</string>
     <string name="pref_title_OpenInBrowserDirectly">Пропустити детальний перегляд і відкрити статтю в браузері</string>
-
     <!-- MemorizingTrustManager -->
     <string name="mtm_accept_cert">Підтвердити невідомий сертифікат?</string>
     <string name="mtm_decision_always">Завжди</string>
@@ -184,11 +186,12 @@
     <string name="no_chapters_available">Немає доступних розділів</string>
     <string name="exit_playback">Вийти з програвача</string>
     <string name="podcast_playback_speed_dialog_title">Швидкість відтворення</string>
-    <string name="notification_downloading_podcast_title">Завантаження подкасту</string>
-
+    <string name="notification_downloading_podcast_title">Звантаження подкасту</string>
+    <string name="dialog_podcast_remove_title">Ви впевнені?</string>
+    <string name="dialog_podcast_remove_confirm">Видалити</string>
 
     <!-- Settings for About -->
-    <string name="pref_header_about">Про програму</string>
+    <string name="pref_header_about">Про застосунок</string>
     <string name="pref_license">Ліцензія</string>
     <string name="pref_license_summary">Загальна громадська ліцензія GNU Афферо (AGPL) версії 3</string>
     <string name="pref_report_issue">Повідомити про проблему</string>
@@ -218,7 +221,7 @@
     <string name="pref_oled_mode_summary">Для темної теми на OLED-екранах</string>
 
     <string name="pref_external_player">Зовнішній програвач</string>
-    <string name="pref_external_player_summary">Відтворювати подкасти у стандартній медіапрограмі</string>
+    <string name="pref_external_player_summary">Відтворювати подкасти у вашому встановленому мультимедійному програвачу</string>
 
     <string name="pref_display_browser_cct">Вбудовані користувацькі вкладки Chrome</string>
     <string name="pref_display_browser_built_in">Вбудований браузер</string>
@@ -249,7 +252,7 @@
     <string name="content_desc_mark_as_unread">Позначити не прочитаним</string>
     <string name="content_desc_tap_to_refresh">Торкніться для оновлення</string>
     <string name="content_desc_add_to_favorites">Додати зірочку</string>
-    <string name="content_desc_remove_from_favorites">Вилучено з улюбленого</string>
+    <string name="content_desc_remove_from_favorites">Прибрати зірочку</string>
     <string name="content_desc_show_password">Показати пароль</string>
     <string name="content_desc_delete">Вилучити</string>
     <string name="content_desc_download">Звантажити</string>
@@ -259,7 +262,7 @@
     <string name="login_dialog_text_news_app_not_installed_on_server" formatted="true">Схоже, що ваш застосунок новин не встановлено або не активовано на вашому сервері. Будь ласка, спочатку налаштуйте застосунок новин на вашому сервері, дотримуючись інструкцій, наведених тут: %1$s</string>
     <string name="login_dialog_text_something_went_wrong">Щось пішло не так :(</string>
     <string name="login_dialog_text_zero_version_code">Веб-застосунок новин повернув версію \"0\". Будь ласка, ознайомтеся з наступним звітом про помилку: https://github.com/nextcloud/news/issues/5#issuecomment-242883795</string>
-    <string name="login_dialog_text_not_compatible">Ця версія застосунку не сумісна з вашим додатком новин Nextcloud. Будь ласка, оновіть додаток новин та фреймворк додатків (appframework).</string>
+    <string name="login_dialog_text_not_compatible">Ця версія застосунку не сумісна з вашим застосунком Новини Nextcloud. Будь ласка, оновіть затосунок Новин та фреймворк додатків (appframework).</string>
     <string name="login_dialog_title_security_warning">Попередження про небезпеку</string>
     <string name="login_dialog_text_security_warning">Ви не використовуєте HTTPS, який дуже рекомендується. Зловмисник може перехопити ваш трафік і отримати доступ до деяких конфіденційних даних (наприклад, вашого пароля).</string>
     <string name="login_dialog_select_account_unknown_error_toast">Щось пішло не так. Будь ласка, спробуйте ще раз.</string>

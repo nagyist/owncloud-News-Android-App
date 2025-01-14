@@ -87,6 +87,7 @@
     <string name="feed_move_list_description">Επιλέξτε το φάκελο που θα μετακινηθεί η ροή</string>
     <string name="move_feed_root_folder">Αρχικός φάκελος</string>
 
+
     <!-- Strings related to FolderOptionsDialogFragment (Rename/Remove folder) -->
     <string name="action_folder_remove">Κατάργηση φακέλου</string>
     <string name="action_folder_rename">Μετονομασία φακέλου</string>
@@ -161,7 +162,6 @@
     <string name="pref_title_MarkAsReadWhileScrolling">Σημείωση ως αναγνωσμένου κατά την κύλιση</string>
     <string name="pref_title_ShowFastActions">Ενεργοποιήστε τις λειτουργίες γρήγορης πρόσβασης</string>
     <string name="pref_title_OpenInBrowserDirectly">Παράλειψη λεπτομερούς προβολής και άνοιγμα αρχείου στον περιηγητή</string>
-
     <!-- MemorizingTrustManager -->
     <string name="mtm_accept_cert">Αποδοχή Άγνωστων Πιστοποιητικών;</string>
     <string name="mtm_decision_always">Πάντα</string>
@@ -175,7 +175,8 @@
     <string name="exit_playback">Έξοδος από τον αναπαραγωγέα</string>
     <string name="podcast_playback_speed_dialog_title">Ταχύτητα Αναπαραγωγής</string>
     <string name="notification_downloading_podcast_title">Γίνεται λήψη podcast</string>
-
+    <string name="dialog_podcast_remove_title">Είστε σίγουροι;</string>
+    <string name="dialog_podcast_remove_confirm">Αφαίρεση</string>
 
     <!-- Settings for About -->
     <string name="pref_header_about">Περί</string>

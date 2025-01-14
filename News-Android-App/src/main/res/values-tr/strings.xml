@@ -17,6 +17,7 @@
     <string name="message_bar_reload">Yeniden yükle</string>
     <string name="allUnreadFeeds">Tüm okunmamış ögeler</string>
     <string name="starredFeeds">Yıldızlanmış ögeler</string>
+    <string name="downloadedPodcasts">İndirilmiş Podcast ortamları</string>
     <string name="title_activity_new_feed">Yeni akış ekle</string>
 
     <string name="menu_update">Yenile</string>
@@ -30,6 +31,7 @@
     <string name="action_starred">Yıldızlanmış</string>
     <string name="action_read">Oku</string>
     <string name="action_playPodacst">Podcast oynat</string>
+    <string name="action_removePodcast">Podcast ortamını sil</string>
     <string name="action_openInBrowser">Tarayıcıda aç</string>
     <string name="action_Share">Paylaş</string>
     <string name="action_login">Sunucu ayarları</string>
@@ -40,9 +42,9 @@
     <string name="action_add_new_folder">Yeni klasör ekle</string>
     <string name="action_textToSpeech">Sesli oku</string>
     <string name="action_search">Arama</string>
-    <string name="action_download_articles_offline">Makaleleri çevrim dışı olarak indir</string>
+    <string name="action_download_articles_offline">Yazıları çevrim dışı olarak indir</string>
     <!-- notifications -->
-    <string name="notification_download_articles_offline">Makaleler çevrim dışı kullanım için indiriliyor</string>
+    <string name="notification_download_articles_offline">Yazılar çevrim dışı kullanılmak üzere indiriliyor</string>
     <string name="notification_download_images_offline">Görseller çevrim dışı kullanım için indiriliyor</string>
     <plurals name="notification_new_items_ticker">
         <item quantity="one">Yeni %d okunmamış ögeniz var</item>
@@ -81,11 +83,15 @@
     <string name="action_feed_rename">Akışı yeniden adlandır</string>
     <string name="action_feed_move">Akışı taşı</string>
     <string name="action_feed_notification_settings">Bildirim ayarları</string>
+    <string name="action_feed_open_in">Açılış ayarları</string>
+    <string name="action_feed_open_in_general_setting">Genel ayarlar kullanılsın</string>
+    <string name="action_feed_open_in_detailed_view">Ayrıntılı görünüm</string>
     <string name="feed_remove_button">Sil</string>
     <string name="feed_rename_button">Yeniden adlandır</string>
     <string name="confirm_feed_remove">Bu akışı silmek istediğinize emin misiniz? Bu işlem geri alınamaz!</string>
     <string name="feed_move_list_description">Akışın içine taşınacağı klasörü seçin</string>
     <string name="move_feed_root_folder">Kök klasör</string>
+
 
     <!-- Strings related to FolderOptionsDialogFragment (Rename/Remove folder) -->
     <string name="action_folder_remove">Klasörü sil</string>
@@ -106,7 +112,7 @@
 
     <!-- Strings related to login -->
     <string name="login_manual">El ile oturum açma</string>
-    <string name="login_sso">Nextcloud Files uygulaması ile oturum aç</string>
+    <string name="login_sso">Nextcloud Dosyalar uygulaması ile oturum aç</string>
     <string name="pref_title_username">Kullanıcı adı</string>
     <string name="pref_title_password">Parola</string>
     <string name="pref_title_owncloudRootPath">Nextcloud kök adresi</string>
@@ -157,12 +163,13 @@
     <string name="reset_cache_unsaved_changes">Eşitlenmemiş değişiklikler var. Yine de ön belleği sıfırlamak ister misiniz?</string>
     <string name="warning">Uyarı</string>
     <string name="pref_title_AutoSyncOnStart">Başlangıçta eşitle</string>
-    <string name="pref_title_ShowOnlyUnread">Yalnızca okunmamış makaleler görüntülensin</string>
+    <string name="pref_title_ShowOnlyUnread">Yalnızca okunmamış yazılar görüntülensin</string>
     <string name="pref_title_DisableHostnameVerification">Sunucu adı doğrulanmasın</string>
     <string name="pref_title_NavigateWithVolumeButtons">Ses düğmeleri ile gezilebilsin</string>
     <string name="pref_title_MarkAsReadWhileScrolling">Kaydırırken okundu olarak işaretlensin</string>
-    <string name="pref_title_ShowFastActions">Hızlı erişim işlevlerini etkinleştir</string>
-    <string name="pref_title_OpenInBrowserDirectly">Ayrıntılı görünümü atlayıp makaleyi tarayıcıda aç</string>
+    <string name="pref_title_ShowFastActions">Hızlı erişim işlevlerini kullanıma al</string>
+    <string name="pref_title_OpenInBrowserDirectly">Ayrıntılı görünümü atlayıp yazıyı tarayıcıda aç</string>
+    <string name="pref_title_BackButtonOpensDrawer">Geri düğmesi menüyü açsın</string>
 
     <!-- MemorizingTrustManager -->
     <string name="mtm_accept_cert">Bilinmeyen sertifikalar kabul edilsin mi?</string>
@@ -177,7 +184,11 @@
     <string name="exit_playback">Oynatıcıdan çık</string>
     <string name="podcast_playback_speed_dialog_title">Oynatma hızı</string>
     <string name="notification_downloading_podcast_title">Podcast indiriliyor</string>
-
+    <string name="dialog_podcast_remove_title">Emin misiniz?</string>
+    <string name="dialog_podcast_remove_body">%1$s indirilmiş ortamını silmek ister misiniz?</string>
+    <string name="dialog_podcast_status_failed">%1$s ortamı silinemedi</string>
+    <string name="dialog_podcast_status_success">%1$s ortamı silindi</string>
+    <string name="dialog_podcast_remove_confirm">Kaldır</string>
 
     <!-- Settings for About -->
     <string name="pref_header_about">Hakkında</string>
@@ -189,13 +200,15 @@
     <string name="pref_contribute_summary">Kaynak kodunu alın</string>
     <string name="pref_privacy">Gizlilik</string>
     <string name="pref_privacy_summary">Nextcloud News Android kişisel verilerin gizliliği ilkesi</string>
+    <string name="pref_news_policy">Bize ulaşın / Haberler ilkesi</string>
+    <string name="pref_news_policy_summary">Nextcloud haberleri Android haberleri ilkesi / Bize ulaşın</string>
     <string name="pref_version">Nextcloud News Android uygulaması</string>
 
 
     <!-- Settings for Display -->
     <string name="pref_header_display">Görüntüle</string>
     <string name="pref_title_app_theme">Tema</string>
-    <string name="pref_title_feed_list_layout">Akış listesi görünümü</string>
+    <string name="pref_title_feed_list_layout">Akış listesi yerleşimi</string>
     <string name="pref_title_font_size">Yazı boyutu</string>
     <string name="pref_display_browser">Tarayıcı</string>
 
@@ -221,7 +234,7 @@
     <string name="pref_display_feed_list_layout_simple_text">Basit metin</string>
     <string name="pref_display_feed_list_layout_headlines">Başlıklar</string>
     <string name="pref_display_feed_list_layout_full_text">Tam metin</string>
-    <string name="pref_display_feed_list_layout_web_layout">Site görünümü</string>
+    <string name="pref_display_feed_list_layout_web_layout">Site yerleşimi</string>
     <string name="pref_display_feed_list_layout_card_view">Kart görünümü</string>
 
     <!-- font size scaling definitions -->
@@ -248,7 +261,7 @@
 
     <!-- Login Dialog -->
     <string name="login_dialog_title_error">Hata</string>
-    <string name="login_dialog_text_news_app_not_installed_on_server" formatted="true">Haberler uygulamanız sunucu üzerinde kurulmamış ya da etkinleştirilmemiş gibi görünüyor. Lütfen önce sunucu üzerine haberler uygulamasını kurmak için yönergeleri izleyin: %1$s</string>
+    <string name="login_dialog_text_news_app_not_installed_on_server" formatted="true">Haberler uygulamanız sunucu üzerinde kurulmamış ya da kullanıma alınmamış gibi görünüyor. Lütfen önce sunucu üzerine haberler uygulamasını kurmak için yönergeyi izleyin: %1$s</string>
     <string name="login_dialog_text_something_went_wrong">Bir şeyler ters gitti :(</string>
     <string name="login_dialog_text_zero_version_code">Site haberleri uygulamasının sürümü \"0\" olarak görünüyor. Lütfen şu hata raporuna bakın: https://github.com/nextcloud/news/issues/5#issuecomment-242883795</string>
     <string name="login_dialog_text_not_compatible">Bu uygulama sürümü kullandığınız Nextcloud Haberler uygulaması ile uyumlu değil. Lütfen Haberler uygulaması ve uygulama çatısını güncelleyin.</string>

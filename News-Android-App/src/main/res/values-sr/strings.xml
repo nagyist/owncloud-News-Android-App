@@ -18,6 +18,7 @@
     <string name="message_bar_reload">Поново учитај</string>
     <string name="allUnreadFeeds">Све непрочитане ставке</string>
     <string name="starredFeeds">Озвездане ставке</string>
+    <string name="downloadedPodcasts">Преузети подкасти</string>
     <string name="title_activity_new_feed">Додај довод</string>
 
     <string name="menu_update">Освежи</string>
@@ -31,6 +32,7 @@
     <string name="action_starred">Озвездано</string>
     <string name="action_read">Читај</string>
     <string name="action_playPodacst">Пусти подемисију</string>
+    <string name="action_removePodcast">Уклони подкаст медије</string>
     <string name="action_openInBrowser">Отвори у прегледачу</string>
     <string name="action_Share">Дели</string>
     <string name="action_login">Поставке сервера</string>
@@ -84,11 +86,15 @@
     <string name="action_feed_rename">Преименуј довод</string>
     <string name="action_feed_move">Премести довод</string>
     <string name="action_feed_notification_settings">Поставке обавештења</string>
+    <string name="action_feed_open_in">Подешавања за отвори-у</string>
+    <string name="action_feed_open_in_general_setting">Корисни општа подешавања</string>
+    <string name="action_feed_open_in_detailed_view">Детаљни приказ</string>
     <string name="feed_remove_button">Уклони</string>
     <string name="feed_rename_button">Преименуј</string>
     <string name="confirm_feed_remove">Заиста желите да уклоните овај довод? Ово се не може опозвати!</string>
     <string name="feed_move_list_description">Изаберите фасциклу да преместите довод</string>
     <string name="move_feed_root_folder">Корена фасцикла</string>
+
 
     <!-- Strings related to FolderOptionsDialogFragment (Rename/Remove folder) -->
     <string name="action_folder_remove">Уклони фолдер</string>
@@ -168,6 +174,7 @@
     <string name="pref_title_MarkAsReadWhileScrolling">Означи као прочитано током клизања</string>
     <string name="pref_title_ShowFastActions">Активирај функције за брзи приступ</string>
     <string name="pref_title_OpenInBrowserDirectly">Прескочи детаљни преглед и одмах отвори чланак у прегледачу</string>
+    <string name="pref_title_BackButtonOpensDrawer">Дугме уназад отвара фиоку</string>
 
     <!-- MemorizingTrustManager -->
     <string name="mtm_accept_cert">Прихватити непознати сертификат?</string>
@@ -182,7 +189,11 @@
     <string name="exit_playback">Напусти Плејер</string>
     <string name="podcast_playback_speed_dialog_title">Брзина пуштања</string>
     <string name="notification_downloading_podcast_title">Преузимам подкаст</string>
-
+    <string name="dialog_podcast_remove_title">Да ли сте сигурни?</string>
+    <string name="dialog_podcast_remove_body">Да ли желите да обришете преузете медије за %1$s?</string>
+    <string name="dialog_podcast_status_failed">Није успело уклањање медија за %1$s</string>
+    <string name="dialog_podcast_status_success">Обрисани су медији за %1$s</string>
+    <string name="dialog_podcast_remove_confirm">Уклони</string>
 
     <!-- Settings for About -->
     <string name="pref_header_about">О програму</string>
@@ -194,6 +205,8 @@
     <string name="pref_contribute_summary">Узми изворни кôд</string>
     <string name="pref_privacy">Приватност</string>
     <string name="pref_privacy_summary">Политика приватности за Некстклауд Новости</string>
+    <string name="pref_news_policy">Контактирајте нас / Полиса Вести</string>
+    <string name="pref_news_policy_summary">Полиса Android Вести Nextcloud Вести / Контактирајте нас</string>
     <string name="pref_version">Андроид апликација за Некстклауд Вести</string>
 
 

@@ -19,6 +19,7 @@
     <string name="message_bar_reload">Обновить</string>
     <string name="allUnreadFeeds">Все непрочитанные</string>
     <string name="starredFeeds">Избранные элементы</string>
+    <string name="downloadedPodcasts">Загруженные подкасты</string>
     <string name="title_activity_new_feed">Добавить новую ленту</string>
 
     <string name="menu_update">Обновить</string>
@@ -32,6 +33,7 @@
     <string name="action_starred">Избранное</string>
     <string name="action_read">Читать</string>
     <string name="action_playPodacst">Воспроизвести Подкаст</string>
+    <string name="action_removePodcast">Удалить подкаст</string>
     <string name="action_openInBrowser">Открыть в браузере</string>
     <string name="action_Share">Поделиться</string>
     <string name="action_login">Параметры сервера</string>
@@ -87,11 +89,15 @@
     <string name="action_feed_rename">Переименовать Новостную ленту</string>
     <string name="action_feed_move">Перенести Новостную ленту</string>
     <string name="action_feed_notification_settings">Настройки уведомлений</string>
+    <string name="action_feed_open_in">Открыть в настройках</string>
+    <string name="action_feed_open_in_general_setting">Использовать общие настройки</string>
+    <string name="action_feed_open_in_detailed_view">Подробный обзор</string>
     <string name="feed_remove_button">Удалить</string>
     <string name="feed_rename_button">Переименовать</string>
     <string name="confirm_feed_remove">Вы действительно хотите удалить эту Новостную ленту? Это не действие необратимо!</string>
     <string name="feed_move_list_description">Выберите папку для перемещения Новостной ленты</string>
     <string name="move_feed_root_folder">Корневой каталог</string>
+
 
     <!-- Strings related to FolderOptionsDialogFragment (Rename/Remove folder) -->
     <string name="action_folder_remove">Удалить каталог</string>
@@ -143,7 +149,7 @@
 
     <!-- Strings related to Settings -->
     <string name="title_activity_settings">Настройки</string>
-    <string name="cache_is_cleared">Кеш очищен!</string>
+    <string name="cache_is_cleared">Кэш очищен!</string>
 
 
     <!-- General settings -->
@@ -162,9 +168,9 @@
     <string name="pref_general_search_in_body">Тело</string>
     <string name="pref_general_search_in_both">Оба</string>
 
-    <string name="dialog_clearing_cache">Очистить кеш.</string>
+    <string name="dialog_clearing_cache">Очистить кэш.</string>
     <string name="dialog_clearing_cache_please_wait">Очистка кэша. Пожалуйста, подождите ...</string>
-    <string name="reset_cache_unsaved_changes">Есть несинхронизированные изменения. Вы действительно хотите очистить кеш?</string>
+    <string name="reset_cache_unsaved_changes">Есть несинхронизированные изменения. Вы действительно хотите очистить кэш?</string>
     <string name="warning">Предупреждение</string>
     <string name="pref_title_AutoSyncOnStart">Синхронизация при запуске</string>
     <string name="pref_title_ShowOnlyUnread">Показать только непрочитанные статьи</string>
@@ -173,6 +179,7 @@
     <string name="pref_title_MarkAsReadWhileScrolling">Отмечать как прочитанное при прокрутке</string>
     <string name="pref_title_ShowFastActions">Включить функции быстрого доступа</string>
     <string name="pref_title_OpenInBrowserDirectly">Пропустить детальный обзор и открыть статью в браузере</string>
+    <string name="pref_title_BackButtonOpensDrawer">Кнопка \"Назад\" открывает ящик</string>
 
     <!-- MemorizingTrustManager -->
     <string name="mtm_accept_cert">Принять неизвестный сертификат?</string>
@@ -187,7 +194,11 @@
     <string name="exit_playback">Выйти из проигрывателя</string>
     <string name="podcast_playback_speed_dialog_title">Скорость воспроизведения</string>
     <string name="notification_downloading_podcast_title">Загрузка подкастов</string>
-
+    <string name="dialog_podcast_remove_title">Вы уверены?</string>
+    <string name="dialog_podcast_remove_body">Вы хотите удалить загруженные медиафайлы для %1$s?</string>
+    <string name="dialog_podcast_status_failed">Не удалось удалить медиафайл для %1$s</string>
+    <string name="dialog_podcast_status_success">Медиафайлы для %1$s были удалены</string>
+    <string name="dialog_podcast_remove_confirm">Удалить</string>
 
     <!-- Settings for About -->
     <string name="pref_header_about">О нас</string>
@@ -199,6 +210,8 @@
     <string name="pref_contribute_summary">Получить исходный код</string>
     <string name="pref_privacy">Конфиденциальность</string>
     <string name="pref_privacy_summary">Политика конфиденциальности новостей Nextcloud Android </string>
+    <string name="pref_news_policy">Свяжитесь с нами / Политика в отношении новостей</string>
+    <string name="pref_news_policy_summary">Новости Nextcloud News Политика в отношении новостей Android / Свяжитесь с нами</string>
     <string name="pref_version">Приложение Nextcloud Новости для Android</string>
 
 

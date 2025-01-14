@@ -18,6 +18,7 @@
     <string name="message_bar_reload">Ricarica</string>
     <string name="allUnreadFeeds">Tutti gli elementi non letti</string>
     <string name="starredFeeds">Elementi preferiti</string>
+    <string name="downloadedPodcasts">Podcast scaricati</string>
     <string name="title_activity_new_feed">Aggiungi una nuova fonte</string>
 
     <string name="menu_update">Aggiorna</string>
@@ -31,6 +32,7 @@
     <string name="action_starred">Preferiti</string>
     <string name="action_read">Lettura</string>
     <string name="action_playPodacst">Riproduci podcast</string>
+    <string name="action_removePodcast">Rimuovi Media Podcast</string>
     <string name="action_openInBrowser">Apri nel browser web</string>
     <string name="action_Share">Condividi</string>
     <string name="action_login">Impostazioni del server</string>
@@ -84,28 +86,32 @@
     <string name="action_feed_rename">Rinomina fonte</string>
     <string name="action_feed_move">Sposta fonte</string>
     <string name="action_feed_notification_settings">Impostazioni di notifica</string>
+    <string name="action_feed_open_in">Impostazioni Apri-in</string>
+    <string name="action_feed_open_in_general_setting">Utilizza l\'impostazione generale</string>
+    <string name="action_feed_open_in_detailed_view">Vista dettagliata</string>
     <string name="feed_remove_button">Rimuovi</string>
     <string name="feed_rename_button">Rinomina</string>
     <string name="confirm_feed_remove">Vuoi davvero rimuovere questa fonte? Ciò non può essere annullato!</string>
     <string name="feed_move_list_description">Seleziona la cartella in cui spostare la fonte</string>
     <string name="move_feed_root_folder">Cartella radice</string>
 
+
     <!-- Strings related to FolderOptionsDialogFragment (Rename/Remove folder) -->
     <string name="action_folder_remove">Rimuovi cartella</string>
     <string name="action_folder_rename">Rinomina cartella</string>
     <string name="folder_remove_button">Rimuovi</string>
     <string name="folder_rename_button">Rinomina</string>
-    <string name="confirm_folder_remove">Vuoi veramente cancellare questa cartella? Questa operazione non può essere annullata!</string>
+    <string name="confirm_folder_remove">Vuoi davvero rimuovere questa cartella? Questa operazione non può essere annullata!</string>
 
     <!-- Strings related to NewsReaderListDialogFragment (Notification Settings) -->
-    <string name="notification_feed_unique">Ricevi una notifica unica per questo feed</string>
-    <string name="notification_feed_default">Tutti i feed con le impostazioni di default appariranno in un\'unica notifica</string>
+    <string name="notification_feed_unique">Ricevi una notifica unica per questa fonte</string>
+    <string name="notification_feed_default">Tutte le fonti con le impostazioni predefinite appariranno in un\'unica notifica</string>
     <string name="notification_feed_none">Nessuna notifica presente</string>
 
     <!-- Strings related to AddFolderDialogFragment (Add Folder) -->
     <string name="folder_add_button">Aggiungi</string>
     <string name="hint_folder_name">Nome della cartella</string>
-    <string name="folder_already_exists">Questa cartella già esiste</string>
+    <string name="folder_already_exists">Questa cartella esiste già</string>
 
     <!-- Strings related to login -->
     <string name="login_manual">Accesso manuale</string>
@@ -168,6 +174,7 @@
     <string name="pref_title_MarkAsReadWhileScrolling">Segna come letto durante lo scorrimento</string>
     <string name="pref_title_ShowFastActions">Attiva funzioni di accesso rapido</string>
     <string name="pref_title_OpenInBrowserDirectly">Salta la vista dettagliata e apri l\'articolo nel browser</string>
+    <string name="pref_title_BackButtonOpensDrawer">Il pulsante Indietro apre la cartella</string>
 
     <!-- MemorizingTrustManager -->
     <string name="mtm_accept_cert">Vuoi accettare un certificato sconosciuto?</string>
@@ -179,10 +186,14 @@
     <!-- Podcast -->
     <string name="no_podcast_selected">Nessun podcast selezionato</string>
     <string name="no_chapters_available">Nessun capitolo disponibile</string>
-    <string name="exit_playback">Esci dal player</string>
+    <string name="exit_playback">Esci dal lettore</string>
     <string name="podcast_playback_speed_dialog_title">Velocità  di riproduzione</string>
     <string name="notification_downloading_podcast_title">Scaricamento podcast</string>
-
+    <string name="dialog_podcast_remove_title">Sei sicuro?</string>
+    <string name="dialog_podcast_remove_body">Vuoi rimuovere il media scaricato per %1$s?</string>
+    <string name="dialog_podcast_status_failed">Impossibile rimuovere il media per %1$s</string>
+    <string name="dialog_podcast_status_success">Il media per %1$s è stato rimosso</string>
+    <string name="dialog_podcast_remove_confirm">Rimuovi</string>
 
     <!-- Settings for About -->
     <string name="pref_header_about">Informazioni</string>
@@ -194,6 +205,8 @@
     <string name="pref_contribute_summary">Ottieni il codice sorgente</string>
     <string name="pref_privacy">Riservatezza</string>
     <string name="pref_privacy_summary">Criterio di riservatezza di Notizie di Nextcloud per Android</string>
+    <string name="pref_news_policy">Contattaci / Policy Notizie</string>
+    <string name="pref_news_policy_summary">Nextcloud Politica sulle Notizie Android / Contattaci</string>
     <string name="pref_version">Applicazione Notizie di Nextcloud per Android</string>
 
 
@@ -213,6 +226,9 @@
 
     <string name="pref_oled_mode">Sfondo scuro</string>
     <string name="pref_oled_mode_summary">Per tema scuro su schermi OLED</string>
+
+    <string name="pref_external_player">Player Esterno</string>
+    <string name="pref_external_player_summary">Riproduci i podcast nella tua app multimediale predefinita</string>
 
     <string name="pref_display_browser_cct">Schede personalizzate di Chrome integrate</string>
     <string name="pref_display_browser_built_in">Browser integrato</string>
@@ -235,7 +251,7 @@
     <string name="content_desc_play">Gioca</string>
     <string name="content_desc_pause">Pausa</string>
     <string name="content_desc_playback_speed">Velocità di riproduzione</string>
-    <string name="content_desc_rewind">Rivedi</string>
+    <string name="content_desc_rewind">Riavvolgi</string>
     <string name="content_desc_forward">Inoltra</string>
     <string name="content_desc_expand">Espandi</string>
     <string name="content_desc_collapse">Contrai</string>

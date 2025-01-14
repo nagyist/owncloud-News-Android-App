@@ -70,6 +70,9 @@
     <string name="feed_remove_button">Eliminar</string>
     <string name="feed_rename_button">Renombrar</string>
     <string name="confirm_feed_remove">¿Realmente deseas eliminar esta Fuente? ¡Esta operación no se puede deshacer!</string>
+    <string name="move_feed_root_folder">Carpeta raíz</string>
+
+
     <string name="action_folder_rename">Renombrar carpeta</string>
     <string name="folder_remove_button">Eliminar</string>
     <string name="folder_rename_button">Renombrar</string>
@@ -104,6 +107,8 @@
     <string name="pref_title_general_sort_order">Cirterio para ordenar</string>
 
     <string name="pref_general_search_in_title">Título</string>
+    <string name="pref_general_search_in_both">Ambos</string>
+
     <string name="dialog_clearing_cache">Limpiando el caché</string>
     <string name="reset_cache_unsaved_changes">Hay cambios que no han sido sincronizados. ¿Quieres limpiar el caché de cualquier modo?</string>
     <string name="warning">Advertencia</string>
@@ -113,7 +118,6 @@
     <string name="pref_title_NavigateWithVolumeButtons">Navegar con los botones de volumen</string>
     <string name="pref_title_MarkAsReadWhileScrolling">Marcar como leído al desplazar</string>
     <string name="pref_title_OpenInBrowserDirectly">Omitir la vista detallada y abrir el artículo en el navegador</string>
-
     <!-- MemorizingTrustManager -->
     <string name="mtm_accept_cert">¿Aceptar certificados desconocidos?</string>
     <string name="mtm_decision_always">Siempre</string>
@@ -124,7 +128,11 @@
     <!-- Podcast -->
     <string name="no_podcast_selected">No se ha seleccionado algún podcast</string>
     <string name="no_chapters_available">No hay capítulos disponibles</string>
+    <string name="exit_playback">Salir del reproductor</string>
     <string name="podcast_playback_speed_dialog_title">Velocidad de Reproducción</string>
+    <string name="dialog_podcast_remove_title">¿Estás seguro?</string>
+    <string name="dialog_podcast_remove_confirm">Borrar</string>
+
     <!-- Settings for About -->
     <string name="pref_header_about">Acerca de</string>
     <string name="pref_license">Licencia</string>
@@ -138,6 +146,7 @@
 
     <string name="pref_display_news_detail_actionbar_icons_title">Íconos de acción (Vista Detallada)</string>
 
+    <string name="pref_display_apptheme_auto">Configuración predeterminada del sistema</string>
     <string name="pref_display_apptheme_light">Claro</string>
     <string name="pref_display_apptheme_dark">Oscuro</string>
 
@@ -178,7 +187,9 @@
     <string name="array_sync_interval_min_5">5 minutos</string>
     <string name="array_sync_interval_min_15">15 minutos</string>
     <string name="array_sync_interval_min_30">30 minutos</string>
+    <string name="array_sync_interval_min_45">45 minutos</string>
     <string name="array_sync_interval_hour_1">1 hora</string>
+    <string name="array_sync_interval_hour_2">2 horas</string>
     <string name="array_sync_interval_hour_3">3 horas</string>
     <string name="array_sync_interval_hour_6">6 horas</string>
     <string name="array_sync_interval_hour_12">12 horas</string>

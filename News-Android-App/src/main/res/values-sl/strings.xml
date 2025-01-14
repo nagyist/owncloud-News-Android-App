@@ -93,6 +93,7 @@
     <string name="feed_move_list_description">Izbor mape za premikanje vira</string>
     <string name="move_feed_root_folder">Korenska mapa</string>
 
+
     <!-- Strings related to FolderOptionsDialogFragment (Rename/Remove folder) -->
     <string name="action_folder_remove">Odstrani mapo</string>
     <string name="action_folder_rename">Preimenuj mapo</string>
@@ -171,7 +172,6 @@
     <string name="pref_title_MarkAsReadWhileScrolling">Med pomikanjem označi prispevke kot prebrane</string>
     <string name="pref_title_ShowFastActions">Omogoči možnosti hitrega dostopa</string>
     <string name="pref_title_OpenInBrowserDirectly">Preskoči podrobni pogled in odpri vir v brskalniku</string>
-
     <!-- MemorizingTrustManager -->
     <string name="mtm_accept_cert">Ali želite prejeti neznano digitalno potrdilo?</string>
     <string name="mtm_decision_always">Vedno</string>
@@ -185,7 +185,8 @@
     <string name="exit_playback">Končaj predvajalnik</string>
     <string name="podcast_playback_speed_dialog_title">Hitrost predvajanja</string>
     <string name="notification_downloading_podcast_title">Potekanje prejemanje podkasta ...</string>
-
+    <string name="dialog_podcast_remove_title">Ali ste prepričani?</string>
+    <string name="dialog_podcast_remove_confirm">Odstrani</string>
 
     <!-- Settings for About -->
     <string name="pref_header_about">O programu</string>

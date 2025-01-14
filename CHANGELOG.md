@@ -1,11 +1,52 @@
+0.9.9.86
+---------------------
+- Dependency updates
+- Added - <a href="https://github.com/nextcloud/news-android/pull/1273">!1273 - Add "remove podcast" in toolbar and "Downloaded podcasts" special folder (thanks to @mkanilsson)</a>
+- Fixed - <a href="https://github.com/nextcloud/news-android/issues/1400">!1400 - Code section shows the same listing in some code posts (thanks to @Unpublished)</a>
+- Fixed - <a href="https://github.com/nextcloud/news-android/pull/1410">!1410 - Changing theme (light/dark) caused favicons to display in wrong color (thanks to @Unpublished / @DoHe)</a>
+- Fixed - <a href="https://github.com/nextcloud/news-android/issues/1035">#1035 - Widget opens wrong article / #1355 Clicking on the widget jumps to a previously opened article (thanks to @Unpublished)</a>
+- Fixed - <a href="https://github.com/nextcloud/news-android/issues/1381">#1381 - Crash when opening downloaded podcasts (thanks to @Unpublished)</a>
+- Fixed - <a href="https://github.com/nextcloud/news-android/issues/1368">#1368 - Images not shown in Details view of specific feeds</a>
+- Changed - <a href="https://github.com/nextcloud/news-android/pull/1382">#1382 - Reduced apk size by 8% (thanks to @connyduck)</a>
+
+0.9.9.85
+---------------------
+- Dependency updates
+- Fix crash when playing video podcasts on Android Auto
+- Add Google News Policy / Contact Us page
+
+0.9.9.84
+---------------------
+- Dependency updates
+- Fixed - <a href="https://github.com/nextcloud/news-android/pull/1332">!1332 - Typo in selected browser preference usage (thanks to @thebaztet)</a>
+
+0.9.9.83
+---------------------
+- Dependency updates
+- Fixed - <a href="https://github.com/nextcloud/news-android/pull/1315">!1315 - Fixed crash when reporting errors (API 33 and below) (thanks to @Unpublished)</a>
+- Fixed - <a href="https://github.com/nextcloud/news-android/pull/1311">!1311 - Fixed flickering of toolbar (thanks to @cemrich)</a>
+- Fixed - <a href="https://github.com/nextcloud/news-android/pull/1306">!1306 - Fix avatar placeholder renders white on white in light theme (thanks to @cemrich)</a>
+- Fixed - <a href="https://github.com/nextcloud/news-android/pull/1303">!1303 - Fix app crashing when streaming or downloading podcasts (thanks to @cemrich)</a>
+- Fixed - <a href="https://github.com/nextcloud/news-android/pull/1304">!1304 - Back button preference and functionality to open sidebar (thanks to @mentalinc)</a>
+- Changed - <a href="https://github.com/nextcloud/news-android/pull/1307">!1307 - Enable androids autofill service in login mask (thanks to @cemrich)</a>
+
 0.9.9.82
 ---------------------
+- Note: Due to changes to the database schema the data will be cleared when upgrading
+- Note: What a release! Thank you for the endless contributions from the community! 
 - Added - <a href="https://github.com/nextcloud/news-android/pull/1262">!1262 - Add shortcut to "Show only unread articles" in the toolbar (thanks to @mkanilsson)</a>
-- Changed - <a href="https://github.com/nextcloud/news-android/pull/1186">!1186 - Material 3 Theme (thanks to @stefan-niedermann)</a>
+- Added - <a href="https://github.com/nextcloud/news-android/pull/1264">!1264 - Add share to swipe option (thanks to @mkanilsson)</a>
+- Added - <a href="https://github.com/nextcloud/news-android/pull/1266">!1266 - per-feed open-in settings (thanks to @mkanilsson)</a>
+- Added - <a href="https://github.com/nextcloud/news-android/pull/1265">!1265 - Allow searching both title and body at the same time (thanks to @mkanilsson)</a>
+- Added - <a href="https://github.com/nextcloud/news-android/pull/1271">!1271 - Enable support for predictive back gestures (thanks to @KingOfDog)</a>
+- Added - <a href="https://github.com/nextcloud/news-android/pull/1286">!1286 - Show changelog after update of app</a>
 - Changed - <a href="https://github.com/nextcloud/news-android/pull/1256">!1256 - Fix starred items not obeying sort order (thanks to @mkanilsson)</a>
+- Changed - <a href="https://github.com/nextcloud/news-android/pull/1186">!1186 - Material 3 Theme (thanks to @stefan-niedermann)</a>
 - Changed - Dependency updates
-- Fixed - <a href="https://github.com/nextcloud/news-android/pull/1257">!1257 - Seeking in podcast player doesn't work (thanks to @annasoin)</a>
 - Fixed - <a href="https://github.com/nextcloud/news-android/pull/1255">!1255 - add line-height for h1 tags (thanks to @mkanilsson)</a>
+- Fixed - <a href="https://github.com/nextcloud/news-android/pull/1257">!1257 - Seeking in podcast player doesn't work (thanks to @annasoin)</a>
+- Fixed - <a href="https://github.com/nextcloud/news-android/pull/1272">!1272 - Fix weird formatting in articles (thanks to @mkanilsson)</a>
+- Fixed - <a href="https://github.com/nextcloud/news-android/issues/1276">#1276 - active toggles lack color</a>
 
 0.9.9.81
 ---------------------

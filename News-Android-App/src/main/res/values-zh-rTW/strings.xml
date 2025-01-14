@@ -16,6 +16,7 @@
     <string name="message_bar_reload">重新載入</string>
     <string name="allUnreadFeeds">所有未閱讀項目</string>
     <string name="starredFeeds">星號項目</string>
+    <string name="downloadedPodcasts">下載 podcast</string>
     <string name="title_activity_new_feed">加入新訂閱</string>
 
     <string name="menu_update">重新整理</string>
@@ -29,6 +30,7 @@
     <string name="action_starred">星號</string>
     <string name="action_read">已讀</string>
     <string name="action_playPodacst">播放 Podcast</string>
+    <string name="action_removePodcast">移除 podcast 媒體</string>
     <string name="action_openInBrowser">用瀏覽器開啟</string>
     <string name="action_Share">分享</string>
     <string name="action_login">伺服器設定</string>
@@ -78,11 +80,15 @@
     <string name="action_feed_rename">重新命名 Feed</string>
     <string name="action_feed_move">移動摘要</string>
     <string name="action_feed_notification_settings">通知設定</string>
+    <string name="action_feed_open_in">「開啟於」設定</string>
+    <string name="action_feed_open_in_general_setting">使用一般設定</string>
+    <string name="action_feed_open_in_detailed_view">詳細資訊檢視</string>
     <string name="feed_remove_button">移除</string>
     <string name="feed_rename_button">重新命名</string>
     <string name="confirm_feed_remove">您真的要移除這個 Feed 嗎？此動作無法復原</string>
     <string name="feed_move_list_description">選擇要移動摘要至的資料夾</string>
     <string name="move_feed_root_folder">根目錄</string>
+
 
     <!-- Strings related to FolderOptionsDialogFragment (Rename/Remove folder) -->
     <string name="action_folder_remove">移除資料夾</string>
@@ -158,6 +164,7 @@
     <string name="pref_title_MarkAsReadWhileScrolling">當滾動時標為已讀</string>
     <string name="pref_title_ShowFastActions">啟用快速存取功能</string>
     <string name="pref_title_OpenInBrowserDirectly">略過詳細檢視，並在瀏覽器開啟文章</string>
+    <string name="pref_title_BackButtonOpensDrawer">返回按鈕開啟隱藏式側邊選單</string>
 
     <!-- MemorizingTrustManager -->
     <string name="mtm_accept_cert">允許未知憑證？</string>
@@ -172,7 +179,11 @@
     <string name="exit_playback">退出播放器</string>
     <string name="podcast_playback_speed_dialog_title">播放速度</string>
     <string name="notification_downloading_podcast_title">正在下載音訊資料</string>
-
+    <string name="dialog_podcast_remove_title">您確定嗎？</string>
+    <string name="dialog_podcast_remove_body">您是否要移除 %1$s 的已下載媒體？</string>
+    <string name="dialog_podcast_status_failed">移除 %1$s 的媒體失敗</string>
+    <string name="dialog_podcast_status_success">已移除 %1$s 的媒體</string>
+    <string name="dialog_podcast_remove_confirm">移除</string>
 
     <!-- Settings for About -->
     <string name="pref_header_about">關於</string>
@@ -184,6 +195,8 @@
     <string name="pref_contribute_summary">取得原始碼</string>
     <string name="pref_privacy">隱私</string>
     <string name="pref_privacy_summary">Nextcloud 新聞 Android 隱私政策</string>
+    <string name="pref_news_policy">聯絡我們 / 新聞政策</string>
+    <string name="pref_news_policy_summary">Nextcloud 新聞 Android 新聞政策 / 聯絡我們</string>
     <string name="pref_version">Nextcloud News Android 應用程式</string>
 
 
@@ -203,6 +216,9 @@
 
     <string name="pref_oled_mode">黑色背景</string>
     <string name="pref_oled_mode_summary">供 OLED 螢幕使用的暗黑主題</string>
+
+    <string name="pref_external_player">外部播放程式</string>
+    <string name="pref_external_player_summary">在您預設的媒體應用程式播放 podcast</string>
 
     <string name="pref_display_browser_cct">內建 Chrome 自訂分頁</string>
     <string name="pref_display_browser_built_in">內建瀏覽器</string>

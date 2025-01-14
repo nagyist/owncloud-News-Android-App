@@ -21,6 +21,7 @@
     <string name="message_bar_reload">Reload</string>
     <string name="allUnreadFeeds">All unread items</string>
     <string name="starredFeeds">Starred items</string>
+    <string name="downloadedPodcasts">Downloaded podcasts</string>
     <string name="title_activity_new_feed">Add new feed</string>
 
     <string name="menu_update">Refresh</string>
@@ -35,6 +36,7 @@
     <string name="action_starred">Starred</string>
     <string name="action_read">Read</string>
     <string name="action_playPodacst">Play Podcast</string>
+    <string name="action_removePodcast">Remove Podcast Media</string>
     <string name="action_openInBrowser">Open in Web browser</string>
     <string name="action_Share">Share</string>
     <string name="action_login">Server Settings</string>
@@ -211,6 +213,7 @@
     <string name="pref_title_MarkAsReadWhileScrolling">Mark as read while scrolling</string>
     <string name="pref_title_ShowFastActions">Activate fast access functions</string>
     <string name="pref_title_OpenInBrowserDirectly">Skip detailed view and open article in the browser</string>
+    <string name="pref_title_BackButtonOpensDrawer">Back button opens drawer</string>
 
     <!-- MemorizingTrustManager -->
     <string name="mtm_accept_cert">Accept Unknown Certificate?</string>
@@ -225,7 +228,11 @@
     <string name="exit_playback">Exit Player</string>
     <string name="podcast_playback_speed_dialog_title">Playback Speed</string>
     <string name="notification_downloading_podcast_title">Downloading podcast</string>
-
+    <string name="dialog_podcast_remove_title">Are you sure?</string>
+    <string name="dialog_podcast_remove_body">Do you want to remove downloaded media for %1$s?</string>
+    <string name="dialog_podcast_status_failed">Failed to remove media for %1$s</string>
+    <string name="dialog_podcast_status_success">Media for %1$s has been removed</string>
+    <string name="dialog_podcast_remove_confirm">Remove</string>
 
     <!-- Settings for About -->
     <string name="pref_header_about">About</string>
@@ -237,6 +244,8 @@
     <string name="pref_contribute_summary">Get the source code</string>
     <string name="pref_privacy">Privacy</string>
     <string name="pref_privacy_summary">Nextcloud News Android Privacy Policy</string>
+    <string name="pref_news_policy">Contact Us / News Policy</string>
+    <string name="pref_news_policy_summary">Nextcloud News Android News Policy / Contact Us</string>
     <string name="pref_version">Nextcloud News Android app</string>
 
 
@@ -306,13 +315,13 @@
 
     <string-array name="pref_display_browser" translatable="false">
         <item>@string/pref_display_browser_cct</item>
-        <item>@string/pref_display_browser_built_in</item>
         <item>@string/pref_display_browser_external</item>
+        <item>@string/pref_display_browser_built_in</item>
     </string-array>
     <string-array name="pref_display_browser_values" translatable="false">
         <item>0</item>
-        <item>2</item>
         <item>1</item>
+        <item>2</item>
     </string-array>
 
     <string name="pref_display_feed_list_layout_headline_thumbnails">Thumbnails (only Headlines)</string>

@@ -84,6 +84,7 @@
     <string name="feed_move_list_description">フィードを移動するフォルダーを選択</string>
     <string name="move_feed_root_folder">ルートフォルダー</string>
 
+
     <!-- Strings related to FolderOptionsDialogFragment (Rename/Remove folder) -->
     <string name="action_folder_remove">フォルダーを削除</string>
     <string name="action_folder_rename">フォルダーの名前を変更</string>
@@ -145,6 +146,8 @@
 
     <string name="pref_general_search_in_title">タイトル</string>
     <string name="pref_general_search_in_body">本文</string>
+    <string name="pref_general_search_in_both">両方</string>
+
     <string name="dialog_clearing_cache">キャッシュをクリアしています。</string>
     <string name="dialog_clearing_cache_please_wait">キャッシュをクリアしています、しばらくお待ちください...</string>
     <string name="reset_cache_unsaved_changes">未同期の変更があります。とにかくキャッシュをリセットしますか？</string>
@@ -156,7 +159,6 @@
     <string name="pref_title_MarkAsReadWhileScrolling">スクロール時に既読としてマークする</string>
     <string name="pref_title_ShowFastActions">高速アクセス機能を有効化</string>
     <string name="pref_title_OpenInBrowserDirectly">詳細な表示をスキップし、ブラウザーで記事を開く</string>
-
     <!-- MemorizingTrustManager -->
     <string name="mtm_accept_cert">未知の証明書を受け入れますか？</string>
     <string name="mtm_decision_always">常に</string>
@@ -170,7 +172,8 @@
     <string name="exit_playback">プレイヤーを終了</string>
     <string name="podcast_playback_speed_dialog_title">再生速度</string>
     <string name="notification_downloading_podcast_title">ポッドキャストのダウンロード</string>
-
+    <string name="dialog_podcast_remove_title">本当に実行しますか？</string>
+    <string name="dialog_podcast_remove_confirm">削除</string>
 
     <!-- Settings for About -->
     <string name="pref_header_about">アプリについて</string>

@@ -19,6 +19,7 @@
     <string name="message_bar_reload">Przeładuj</string>
     <string name="allUnreadFeeds">Wszystkie nieprzeczytane pozycje</string>
     <string name="starredFeeds">Pozycje oznaczone gwiazdką</string>
+    <string name="downloadedPodcasts">Pobrane podcasty</string>
     <string name="title_activity_new_feed">Dodaj nowy kanał</string>
 
     <string name="menu_update">Odśwież</string>
@@ -32,6 +33,7 @@
     <string name="action_starred">Oznaczone</string>
     <string name="action_read">Przeczytane</string>
     <string name="action_playPodacst">Odtwórz Podcast</string>
+    <string name="action_removePodcast">Usuń multimedia z podcastami</string>
     <string name="action_openInBrowser">Otwórz w przeglądarce </string>
     <string name="action_Share">Udostępnij</string>
     <string name="action_login">Ustawienia serwera</string>
@@ -87,11 +89,15 @@
     <string name="action_feed_rename">Zmień nazwę kanału</string>
     <string name="action_feed_move">Przenieś kanał</string>
     <string name="action_feed_notification_settings">Ustawienia powiadomień</string>
+    <string name="action_feed_open_in">Otwórz w ustawieniach</string>
+    <string name="action_feed_open_in_general_setting">Użyj ustawień ogólnych</string>
+    <string name="action_feed_open_in_detailed_view">Widok szczegółów</string>
     <string name="feed_remove_button">Usuń</string>
     <string name="feed_rename_button">Zmień nazwę</string>
     <string name="confirm_feed_remove">Czy na pewno chcesz usunąć ten kanał? Operacja jest nieodwracalna!</string>
     <string name="feed_move_list_description">Wybierz katalog, aby przenieść dane</string>
     <string name="move_feed_root_folder">Katalog główny</string>
+
 
     <!-- Strings related to FolderOptionsDialogFragment (Rename/Remove folder) -->
     <string name="action_folder_remove">Usuń katalog</string>
@@ -112,7 +118,7 @@
 
     <!-- Strings related to login -->
     <string name="login_manual">Ręczne logowanie</string>
-    <string name="login_sso">Zaloguj się używając aplikacji Nextcloud Files</string>
+    <string name="login_sso">Zaloguj się używając aplikacji Pliki Nextcloud</string>
     <string name="pref_title_username">Nazwa użytkownika</string>
     <string name="pref_title_password">Hasło</string>
     <string name="pref_title_owncloudRootPath">Adres główny Nextcloud</string>
@@ -173,6 +179,7 @@
     <string name="pref_title_MarkAsReadWhileScrolling">Oznacz jako przeczytane podczas przewijania</string>
     <string name="pref_title_ShowFastActions">Aktywuj funkcje szybkiego dostępu</string>
     <string name="pref_title_OpenInBrowserDirectly">Pomiń widok szczegółów i otwórz artykuł w przeglądarce</string>
+    <string name="pref_title_BackButtonOpensDrawer">Przycisk wstecz otwiera szufladę</string>
 
     <!-- MemorizingTrustManager -->
     <string name="mtm_accept_cert">Akceptować nieznane certyfikaty?</string>
@@ -187,7 +194,11 @@
     <string name="exit_playback">Wyjdź z odtwarzacza</string>
     <string name="podcast_playback_speed_dialog_title">Prędkość odtwarzania</string>
     <string name="notification_downloading_podcast_title">Pobieranie podcastu</string>
-
+    <string name="dialog_podcast_remove_title">Jesteś pewny?</string>
+    <string name="dialog_podcast_remove_body">Czy chcesz usunąć pobrane multimedia dla %1$s?</string>
+    <string name="dialog_podcast_status_failed">Nie udało się usunąć multimediów dla %1$s</string>
+    <string name="dialog_podcast_status_success">Multimedia dla %1$s zostały usunięte</string>
+    <string name="dialog_podcast_remove_confirm">Usuń</string>
 
     <!-- Settings for About -->
     <string name="pref_header_about">O aplikacji</string>
@@ -199,6 +210,8 @@
     <string name="pref_contribute_summary">Pobierz kod źródłowy</string>
     <string name="pref_privacy">Prywatność</string>
     <string name="pref_privacy_summary">Polityka prywatności Nextcloud News na Androida</string>
+    <string name="pref_news_policy">Skontaktuj się z nami / Polityka prywatności News</string>
+    <string name="pref_news_policy_summary">Polityka prywatności Nextcloud News Android / Skontaktuj się z nami</string>
     <string name="pref_version">Aplikacja Nextcloud News Android</string>
 
 

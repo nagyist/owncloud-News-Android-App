@@ -90,6 +90,7 @@
     <string name="feed_move_list_description">Seleccionar carpeta para mover fuente</string>
     <string name="move_feed_root_folder">Carpeta raíz</string>
 
+
     <!-- Strings related to FolderOptionsDialogFragment (Rename/Remove folder) -->
     <string name="action_folder_remove">Eliminar carpeta</string>
     <string name="action_folder_rename">Renombrar carpeta</string>
@@ -166,7 +167,6 @@
     <string name="pref_title_MarkAsReadWhileScrolling">Marcar como leído al desplazar</string>
     <string name="pref_title_ShowFastActions">Activar funciones de acceso rápido</string>
     <string name="pref_title_OpenInBrowserDirectly">Omitir la vista detallada y abrir el artículo en el navegador</string>
-
     <!-- MemorizingTrustManager -->
     <string name="mtm_accept_cert">¿Aceptar certificados desconocidos?</string>
     <string name="mtm_decision_always">Siempre</string>
@@ -180,8 +180,7 @@
     <string name="exit_playback">Salir del reproductor</string>
     <string name="podcast_playback_speed_dialog_title">Velocidad de Reproducción</string>
     <string name="notification_downloading_podcast_title">Descargando podcast</string>
-
-
+    <string name="dialog_podcast_remove_title">¿Estás seguro?</string>
     <!-- Settings for About -->
     <string name="pref_header_about">Acerca de</string>
     <string name="pref_license">Licencia</string>

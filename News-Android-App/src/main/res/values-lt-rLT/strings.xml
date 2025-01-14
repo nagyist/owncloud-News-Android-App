@@ -85,6 +85,7 @@
     <string name="feed_move_list_description">Pasirinkite aplanką į kurį norite perkelti kanalą</string>
     <string name="move_feed_root_folder">Šakninis aplankas</string>
 
+
     <string name="action_folder_rename">Pervadinti aplanką</string>
     <string name="folder_remove_button">Šalinti</string>
     <string name="folder_rename_button">Pervadinti</string>
@@ -145,7 +146,6 @@
     <string name="pref_title_NavigateWithVolumeButtons">Naršyti su garso mygtukais</string>
     <string name="pref_title_MarkAsReadWhileScrolling">Žymėti perskaitytu slenkant</string>
     <string name="pref_title_OpenInBrowserDirectly">Praleisti išsamų atvaizdavimą ir atidaryti straipsnį naršyklėje.</string>
-
     <!-- MemorizingTrustManager -->
     <string name="mtm_accept_cert">Priimti nežinomą liudijimą?</string>
     <string name="mtm_decision_always">Visada</string>
@@ -158,7 +158,8 @@
     <string name="no_chapters_available">Skyriai neprieinami</string>
     <string name="podcast_playback_speed_dialog_title">Atkūrimo greitis</string>
     <string name="notification_downloading_podcast_title">Atsisiunčiama tinklalaidė</string>
-
+    <string name="dialog_podcast_remove_title">Ar esate tikri?</string>
+    <string name="dialog_podcast_remove_confirm">Šalinti</string>
 
     <!-- Settings for About -->
     <string name="pref_header_about">Apie</string>

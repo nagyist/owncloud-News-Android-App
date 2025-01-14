@@ -21,12 +21,13 @@
     <string name="message_bar_reload">إعادة تحميل</string>
     <string name="allUnreadFeeds">كل العناصر غير المقروءه</string>
     <string name="starredFeeds">العناصر المُعلّمة بنجمة</string>
+    <string name="downloadedPodcasts">ملفات بودكاست تمّ تنزيلها</string>
     <string name="title_activity_new_feed">إضافة موجز جديد</string>
 
     <string name="menu_update">تحديث</string>
     <string name="menu_markAllAsRead">تحديد الكل كمقروء</string>
-    <string name="menu_StartImageCaching">تحميل الصور</string>
-    <string name="menu_downloadMoreItems">تحميل المزيد من العناصر</string>
+    <string name="menu_StartImageCaching">تنزيل الصور</string>
+    <string name="menu_downloadMoreItems">تنزيل المزيد من العناصر</string>
 
     <string name="tv_showing_cached_version">عرض النسخة المُخبّأة cached</string>
 
@@ -34,9 +35,10 @@
     <string name="action_starred">مُعلّم بنجمة</string>
     <string name="action_read">قراءة</string>
     <string name="action_playPodacst">تشغيل بودكاست</string>
+    <string name="action_removePodcast">إزالة وسائط البودكاست</string>
     <string name="action_openInBrowser">فتح في متصفح الويب</string>
     <string name="action_Share">شارك</string>
-    <string name="action_login">إعدادات الخادوم</string>
+    <string name="action_login">إعدادات الخادم</string>
     <string name="action_save">حفظ</string>
     <string name="action_settings">إعدادات</string>
     <string name="action_sync_settings">مزامنة الإعدادات</string>
@@ -75,16 +77,16 @@
     <!-- String related to NewsDetail-ContextMenu Items -->
     <string name="action_img_download">تنزيل الصورة</string>
     <string name="action_img_sharelink">شارك رابط الصورة</string>
-    <string name="action_img_open">إفتح الصورة في المستعرض</string>
+    <string name="action_img_open">افتح الصورة في المستعرض</string>
     <string name="action_img_copylink">نسخ رابط الصورة</string>
     <string name="action_link_share">شارك الرابط</string>
     <string name="action_link_open">افتح الرابط في المستعرض</string>
     <string name="action_link_copy">إنسخ الرابط</string>
-    <string name="toast_img_download_wait">التحميل جارٍ. يرجى الانتظار …</string>
+    <string name="toast_img_download_wait">يتم التنزيل. يرجى الانتظار …</string>
     <string name="toast_img_saved">تمّ حفظ الصورة</string>
     <string name="toast_img_notwriteable">تعذّر نسخ الصورة</string>
     <string name="toast_copied_to_clipboard">تمّ النسخ للحافظة</string>
-    <string name="error_download_failed">تعذّر التحميل</string>
+    <string name="error_download_failed">تعذّر التنزيل</string>
     <string name="intent_title_share">شارِك عبر</string>
 
 
@@ -93,22 +95,26 @@
     <string name="action_feed_rename">إعادة تسمية الموجز</string>
     <string name="action_feed_move">نقل الموجز</string>
     <string name="action_feed_notification_settings">إعدادات الإشعارات</string>
+    <string name="action_feed_open_in">إعدادات الافتتاح</string>
+    <string name="action_feed_open_in_general_setting">استخدم الإعدادات العامة</string>
+    <string name="action_feed_open_in_detailed_view">عرض تفصيلي</string>
     <string name="feed_remove_button">حذف</string>
-    <string name="feed_rename_button">تغيير التسمية</string>
+    <string name="feed_rename_button">إعادة التسمية</string>
     <string name="confirm_feed_remove">هل تريد حقًا إزالة هذا الموجز؟ لا يمكن التراجع عن هذا لاحقاً!</string>
     <string name="feed_move_list_description">إختر مجلداً ليُنقل إليه الموجز</string>
     <string name="move_feed_root_folder">المجلد الجذري root folder</string>
 
+
     <!-- Strings related to FolderOptionsDialogFragment (Rename/Remove folder) -->
-    <string name="action_folder_remove">إحذف المجلد</string>
+    <string name="action_folder_remove">حذف المجلد</string>
     <string name="action_folder_rename">غيّر تسمية المجلد</string>
     <string name="folder_remove_button">حذف</string>
-    <string name="folder_rename_button">تغيير التسمية</string>
+    <string name="folder_rename_button">إعادة التسمية</string>
     <string name="confirm_folder_remove">هل تريد حقًا إزالة هذا المجلد؟ لا يمكن التراجع عن هذا لاحقاً!</string>
 
     <!-- Strings related to NewsReaderListDialogFragment (Notification Settings) -->
     <string name="notification_feed_unique">تَلَقَّى إشعارات فريدة unique لهذا الموجز</string>
-    <string name="notification_feed_default">ستظهر جميع المواجيز feeds ذات الإعدادات الافتراضية في إشعار واحد</string>
+    <string name="notification_feed_default">ستظهر جميع الإيجازات ذات الإعدادات الافتراضية في إشعار واحد</string>
     <string name="notification_feed_none">لا توجد أيّ إشعاراتٍ</string>
 
     <!-- Strings related to AddFolderDialogFragment (Add Folder) -->
@@ -127,7 +133,7 @@
     <string name="action_sign_in_short">تسجيل الدخول</string>
     <string name="login_progress_signing_in">تسجيل الدخول جارٍ…</string>
     <!-- <string name="error_incorrect_password">Incorrect password</string> -->
-    <string name="error_field_required">هذا الحقل لازمٌ</string>
+    <string name="error_field_required">هذا الحقل مطلوب</string>
     <string name="error_invalid_url">عنوان URL  غير صحيحٍ</string>
 
 
@@ -180,9 +186,10 @@
     <string name="pref_title_ShowOnlyUnread">أظهر فقط المقالات غير المقروءة</string>
     <string name="pref_title_DisableHostnameVerification">تعطيل التحقق من اسم المضيف</string>
     <string name="pref_title_NavigateWithVolumeButtons">التّنقل باستخدام أزرار الصوت</string>
-    <string name="pref_title_MarkAsReadWhileScrolling">حدِّد كمقروء أثناء التنقل</string>
+    <string name="pref_title_MarkAsReadWhileScrolling">تحديد كمقروء أثناء التنقل</string>
     <string name="pref_title_ShowFastActions">مكًن وظائف الوصول السريع</string>
     <string name="pref_title_OpenInBrowserDirectly">تخطي العرض المفصل وفتح المقال في المتصفح</string>
+    <string name="pref_title_BackButtonOpensDrawer">زِر الرجوع يفتح الدُّرج</string>
 
     <!-- MemorizingTrustManager -->
     <string name="mtm_accept_cert">هل تقبل بشهادة غير معروفة؟</string>
@@ -197,7 +204,11 @@
     <string name="exit_playback">أُخرُج من المُشغّل</string>
     <string name="podcast_playback_speed_dialog_title">سرعة التشغيل</string>
     <string name="notification_downloading_podcast_title">تنزيل البودكاست</string>
-
+    <string name="dialog_podcast_remove_title">هل أنت متأكد؟</string>
+    <string name="dialog_podcast_remove_body">هل ترغب في إزالة الوسائط التي تمّ تنزيلها لـ %1$s?</string>
+    <string name="dialog_podcast_status_failed">تعذّر حذف الوسائط لـ %1$s</string>
+    <string name="dialog_podcast_status_success">وسائط %1$s تمّ حذفها</string>
+    <string name="dialog_podcast_remove_confirm">حذف</string>
 
     <!-- Settings for About -->
     <string name="pref_header_about">عن</string>
@@ -209,12 +220,14 @@
     <string name="pref_contribute_summary">أحصل على الشفرة المصدرية</string>
     <string name="pref_privacy">الخصوصية</string>
     <string name="pref_privacy_summary">سياسة الخصوصية في تطبيق News من نكست كلاود على الأندرويد</string>
+    <string name="pref_news_policy">تواصل معنا / السياسة الإخبارية</string>
+    <string name="pref_news_policy_summary">الأخبار على أندرويد من نكست كلاود / تواصل معنا</string>
     <string name="pref_version">تطبيق News من نكست كلاود على الأندرويد</string>
 
 
     <!-- Settings for Display -->
     <string name="pref_header_display">عرض</string>
-    <string name="pref_title_app_theme">الثيمة</string>
+    <string name="pref_title_app_theme">السمة</string>
     <string name="pref_title_feed_list_layout">مخطط عرض الموجز بالقائمة</string>
     <string name="pref_title_font_size">حجم الخط</string>
     <string name="pref_display_browser">المتصفح</string>
@@ -236,12 +249,12 @@
     <string name="pref_display_browser_built_in">متصفح مدمج</string>
     <string name="pref_display_browser_external">متصفح خارجي</string>
 
-    <string name="pref_display_feed_list_layout_headline_thumbnails">صور مصغرة thumbnails ـ (للعناوين فقط)</string>
+    <string name="pref_display_feed_list_layout_headline_thumbnails">مصغرات  (للعناوين فقط)</string>
     <string name="pref_display_feed_list_layout_thumbnails">صور مصغرة thumbnails</string>
     <string name="pref_display_feed_list_layout_simple_text">نص بسيط</string>
     <string name="pref_display_feed_list_layout_headlines">العناوين</string>
     <string name="pref_display_feed_list_layout_full_text">نص كامل</string>
-    <string name="pref_display_feed_list_layout_web_layout">مخطط عرض صفحة الوب</string>
+    <string name="pref_display_feed_list_layout_web_layout">مخطط عرض صفحة الويب</string>
     <string name="pref_display_feed_list_layout_card_view">عرض البطاقات</string>
 
     <!-- font size scaling definitions -->

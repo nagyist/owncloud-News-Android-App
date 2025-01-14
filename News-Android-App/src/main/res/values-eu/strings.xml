@@ -17,6 +17,7 @@
     <string name="message_bar_reload">Birkargatu</string>
     <string name="allUnreadFeeds">Irakurri gabeko elementu guztiak</string>
     <string name="starredFeeds">Izardun elementuak</string>
+    <string name="downloadedPodcasts">Deskargatutako podcastak</string>
     <string name="title_activity_new_feed">Gehitu jario berria</string>
 
     <string name="menu_update">Freskatu</string>
@@ -30,6 +31,7 @@
     <string name="action_starred">Izarduna</string>
     <string name="action_read">Irakurri</string>
     <string name="action_playPodacst">Erreproduzitu podcasta</string>
+    <string name="action_removePodcast">Kendu Podcast Media</string>
     <string name="action_openInBrowser">Ireki nabigatzailean</string>
     <string name="action_Share">Partekatu</string>
     <string name="action_login">Zerbitzariaren ezarpenak</string>
@@ -81,11 +83,15 @@
     <string name="action_feed_rename">Aldatu izena jarioari</string>
     <string name="action_feed_move">Lekuz aldatu jarioa</string>
     <string name="action_feed_notification_settings">Jakinarazpen-ezarpenak</string>
+    <string name="action_feed_open_in">Irekiera ezarpenak</string>
+    <string name="action_feed_open_in_general_setting">Erabili ezarpen orokorrak</string>
+    <string name="action_feed_open_in_detailed_view">Ikuspegi xehea</string>
     <string name="feed_remove_button">Ezabatu</string>
     <string name="feed_rename_button">Berrizendatu</string>
     <string name="confirm_feed_remove">Ziur zaude jario hau ezabatu nahi duzu? Aldaketa ezin da desegin!</string>
     <string name="feed_move_list_description">Hautatu jarioa ze karpetatara eraman nahi duzun</string>
     <string name="move_feed_root_folder">Erro karpeta</string>
+
 
     <!-- Strings related to FolderOptionsDialogFragment (Rename/Remove folder) -->
     <string name="action_folder_remove">Kendu karpeta</string>
@@ -163,6 +169,7 @@
     <string name="pref_title_MarkAsReadWhileScrolling">Markatu irakurrita gisa korritzean</string>
     <string name="pref_title_ShowFastActions">Gaitu sarbide azkarreko funtzioak</string>
     <string name="pref_title_OpenInBrowserDirectly">Saltatu ikuspegi xehatua eta ireki artikulua nabigatzailean</string>
+    <string name="pref_title_BackButtonOpensDrawer">Atzeko botoiak tiradera irekitzen du</string>
 
     <!-- MemorizingTrustManager -->
     <string name="mtm_accept_cert">Ziurtagiri ezezaguna onartu?</string>
@@ -177,7 +184,11 @@
     <string name="exit_playback">Irten erreproduzigailua</string>
     <string name="podcast_playback_speed_dialog_title">Erreprodukzio abiadura</string>
     <string name="notification_downloading_podcast_title">Podcasta deskargatzen</string>
-
+    <string name="dialog_podcast_remove_title">Ziur zaude?</string>
+    <string name="dialog_podcast_remove_body">%1$s-rentzat deskargatutako multimedia kendu nahi duzu?</string>
+    <string name="dialog_podcast_status_failed">%1$s-ren multimedia kentzeak huts egin du</string>
+    <string name="dialog_podcast_status_success">%1$s-ren multimedia kendu da</string>
+    <string name="dialog_podcast_remove_confirm">Kendu</string>
 
     <!-- Settings for About -->
     <string name="pref_header_about">Honi buruz</string>
@@ -189,6 +200,8 @@
     <string name="pref_contribute_summary">Eskuratu iturburu-kodea</string>
     <string name="pref_privacy">Pribatutasuna</string>
     <string name="pref_privacy_summary">Nextcloud Albisteak Android Pribatutasun Gidalerroa</string>
+    <string name="pref_news_policy">Gurekin harremanetan jarri / Albisteen politika</string>
+    <string name="pref_news_policy_summary">Nextcloud Albisteak Android Albisteen politika / Jarri gurekin harremanetan</string>
     <string name="pref_version">Nextcloud Albisteak Android aplikazioa</string>
 
 
@@ -234,7 +247,7 @@
     <string name="content_desc_pause">Gelditu</string>
     <string name="content_desc_playback_speed">Erreprodukzio abiadura</string>
     <string name="content_desc_rewind">Atzeratu</string>
-    <string name="content_desc_forward">Aurreratu</string>
+    <string name="content_desc_forward">Birbidali</string>
     <string name="content_desc_expand">Zabaldu</string>
     <string name="content_desc_collapse">Tolestu</string>
     <string name="content_desc_mark_as_read">Markatu irakurritako gisa</string>

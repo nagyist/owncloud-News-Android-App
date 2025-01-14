@@ -17,6 +17,7 @@
     <string name="message_bar_reload">Herladen</string>
     <string name="allUnreadFeeds">Alle ongelezen berichten</string>
     <string name="starredFeeds">Gemarkeerde berichten</string>
+    <string name="downloadedPodcasts">Gedownloade podcast</string>
     <string name="title_activity_new_feed">Voeg nieuwe feed toe</string>
 
     <string name="menu_update">Vernieuwen</string>
@@ -30,6 +31,7 @@
     <string name="action_starred">Gemarkeerd</string>
     <string name="action_read">Lees</string>
     <string name="action_playPodacst">Afspelen Podcast</string>
+    <string name="action_removePodcast">Verwijder podcast media</string>
     <string name="action_openInBrowser">Openen in webbrowser</string>
     <string name="action_Share">Delen</string>
     <string name="action_login">Serverinstellingen</string>
@@ -81,11 +83,15 @@
     <string name="action_feed_rename">Hernoem feed</string>
     <string name="action_feed_move">Verplaats feed</string>
     <string name="action_feed_notification_settings">Meldingsinstellingen</string>
+    <string name="action_feed_open_in">Open-in instellingen</string>
+    <string name="action_feed_open_in_general_setting">Gebruik globale instelling</string>
+    <string name="action_feed_open_in_detailed_view">Gedetailleerd overzicht</string>
     <string name="feed_remove_button">Verwijder</string>
     <string name="feed_rename_button">Naam wijzigen</string>
     <string name="confirm_feed_remove">Wil je deze feed echt verwijderen? Dit kan niet ongedaan worden gemaakt!</string>
     <string name="feed_move_list_description">Kies de map om de feed naar te verplaatsen</string>
     <string name="move_feed_root_folder">Hoofdmap</string>
+
 
     <!-- Strings related to FolderOptionsDialogFragment (Rename/Remove folder) -->
     <string name="action_folder_remove">Verwijder map</string>
@@ -150,6 +156,8 @@
 
     <string name="pref_general_search_in_title">Titel</string>
     <string name="pref_general_search_in_body">Body</string>
+    <string name="pref_general_search_in_both">Beide</string>
+
     <string name="dialog_clearing_cache">Leegmaken cache</string>
     <string name="dialog_clearing_cache_please_wait">Cache opschonen. Even geduld …</string>
     <string name="reset_cache_unsaved_changes">Er zijn nog niet gesynchroniseerde wijzigingen. Wil je de cache toch resetten?</string>
@@ -161,6 +169,7 @@
     <string name="pref_title_MarkAsReadWhileScrolling">Markeren als gelezen bij scrollen</string>
     <string name="pref_title_ShowFastActions">Snelle toegangsfuncties activeren</string>
     <string name="pref_title_OpenInBrowserDirectly">Sla detailvoorbeeld over en open artikel in browser</string>
+    <string name="pref_title_BackButtonOpensDrawer">Terug knop opent lade</string>
 
     <!-- MemorizingTrustManager -->
     <string name="mtm_accept_cert">Onbekend certificaat accepteren?</string>
@@ -175,7 +184,11 @@
     <string name="exit_playback">Speler verlaten</string>
     <string name="podcast_playback_speed_dialog_title">Afspeelsnelheid</string>
     <string name="notification_downloading_podcast_title">Downloaden podcast</string>
-
+    <string name="dialog_podcast_remove_title">Weet je het zeker?</string>
+    <string name="dialog_podcast_remove_body">Wil je de gedownloade media voor  %1$s verwijderen?</string>
+    <string name="dialog_podcast_status_failed">Verwijderen media mislukt voor %1$s </string>
+    <string name="dialog_podcast_status_success">Media voor %1$s verwijderd</string>
+    <string name="dialog_podcast_remove_confirm">Verwijderen</string>
 
     <!-- Settings for About -->
     <string name="pref_header_about">Over</string>
@@ -187,6 +200,8 @@
     <string name="pref_contribute_summary">Download de broncode</string>
     <string name="pref_privacy">Privacy</string>
     <string name="pref_privacy_summary">Nextcloud News Android Privacy Policy</string>
+    <string name="pref_news_policy">Neem contact op / Nieuws Voorwaarden</string>
+    <string name="pref_news_policy_summary">Nextcloud Nieuws Android Nieuws Voorwaarden / Neem contact op</string>
     <string name="pref_version">Nextcloud Nieuws Android app</string>
 
 
@@ -206,6 +221,9 @@
 
     <string name="pref_oled_mode">Zwarte achtergrond</string>
     <string name="pref_oled_mode_summary">Voor donker thema op OLED schermen</string>
+
+    <string name="pref_external_player">Externe speler</string>
+    <string name="pref_external_player_summary">Speel podcasts in je standaard media app</string>
 
     <string name="pref_display_browser_cct">Ingebouwde Chrome-maatwerk-tabs</string>
     <string name="pref_display_browser_built_in">Ingebouwde browser</string>

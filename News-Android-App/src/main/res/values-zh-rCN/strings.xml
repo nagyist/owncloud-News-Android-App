@@ -9,7 +9,7 @@
     <string name="no_wifi_available">没有连接到 WiFi</string>
     <string name="do_you_want_to_download_without_wifi">是否要在没有 WiFi 的状况下下载图像？</string>
     <string name="current_version">您正在使用的版本号为：%s</string>
-    <string name="widget_header">ownCloud 新闻</string>
+    <string name="widget_header">Nextcloud 新闻</string>
     <plurals name="message_bar_new_articles_available">
         <item quantity="other">%d 条新内容</item>
     </plurals>
@@ -78,11 +78,15 @@
     <string name="action_feed_rename">重命名订阅源</string>
     <string name="action_feed_move">移动订阅源</string>
     <string name="action_feed_notification_settings">通知设置</string>
+    <string name="action_feed_open_in">Open-in 设置</string>
+    <string name="action_feed_open_in_general_setting">使用一般设置</string>
+    <string name="action_feed_open_in_detailed_view">详细视图</string>
     <string name="feed_remove_button">移除</string>
     <string name="feed_rename_button">重命名</string>
     <string name="confirm_feed_remove">您真的要删除此订阅源吗？本操作不可恢复！</string>
     <string name="feed_move_list_description">选择文件夹以移动订阅源</string>
     <string name="move_feed_root_folder">根目录</string>
+
 
     <!-- Strings related to FolderOptionsDialogFragment (Rename/Remove folder) -->
     <string name="action_folder_remove">移除文件夹</string>
@@ -145,6 +149,8 @@
 
     <string name="pref_general_search_in_title">标题</string>
     <string name="pref_general_search_in_body">主体</string>
+    <string name="pref_general_search_in_both">都是</string>
+
     <string name="dialog_clearing_cache">清除缓存</string>
     <string name="dialog_clearing_cache_please_wait">正在清理缓存。请稍候 ...</string>
     <string name="reset_cache_unsaved_changes">有一部分文件未同步，您确定仍然清空缓存吗？</string>
@@ -156,6 +162,7 @@
     <string name="pref_title_MarkAsReadWhileScrolling">当滚动时标记为已读</string>
     <string name="pref_title_ShowFastActions">激活快速访问功能</string>
     <string name="pref_title_OpenInBrowserDirectly">跳过详情查看并在浏览器中打开文章</string>
+    <string name="pref_title_BackButtonOpensDrawer">返回按钮打开侧边栏</string>
 
     <!-- MemorizingTrustManager -->
     <string name="mtm_accept_cert">允许未知证书？</string>
@@ -170,7 +177,8 @@
     <string name="exit_playback">退出播放器</string>
     <string name="podcast_playback_speed_dialog_title">播放速度</string>
     <string name="notification_downloading_podcast_title">正在下载播客</string>
-
+    <string name="dialog_podcast_remove_title">你确定吗？</string>
+    <string name="dialog_podcast_remove_confirm">移除</string>
 
     <!-- Settings for About -->
     <string name="pref_header_about">关于</string>
@@ -262,17 +270,17 @@
     <string name="pref_data_sync_image_cache_ask">未连接到 WiFi 时询问</string>
 
     <string name="array_sync_interval_min_0">永不</string>
-    <string name="array_sync_interval_min_5">5分钟</string>
-    <string name="array_sync_interval_min_15">15分钟 </string>
-    <string name="array_sync_interval_min_30">30分钟 </string>
-    <string name="array_sync_interval_min_45">45分钟</string>
+    <string name="array_sync_interval_min_5">5 分钟</string>
+    <string name="array_sync_interval_min_15">15 分钟 </string>
+    <string name="array_sync_interval_min_30">30 分钟 </string>
+    <string name="array_sync_interval_min_45">45 分钟</string>
     <string name="array_sync_interval_hour_1">1小时 </string>
     <string name="array_sync_interval_hour_2">2小时</string>
     <string name="array_sync_interval_hour_3">3小时</string>
     <string name="array_sync_interval_hour_6">6小时</string>
     <string name="array_sync_interval_hour_12">12小时</string>
     <string name="array_sync_interval_hour_24">24小时</string>
-    <string name="switch_account">切换账户</string>
+    <string name="switch_account">切换账号</string>
     
     <string name="successfully_exported">已成功导出到：</string>
     <string name="opml_export">OPML 导出</string>

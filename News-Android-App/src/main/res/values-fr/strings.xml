@@ -18,6 +18,7 @@
     <string name="message_bar_reload">Recharger</string>
     <string name="allUnreadFeeds">Tous les articles non lus</string>
     <string name="starredFeeds">Articles favoris</string>
+    <string name="downloadedPodcasts">Podcasts téléchargés</string>
     <string name="title_activity_new_feed">Ajouter un flux</string>
 
     <string name="menu_update">Rafraîchir</string>
@@ -31,6 +32,7 @@
     <string name="action_starred">Favori</string>
     <string name="action_read">Lu</string>
     <string name="action_playPodacst">Lire le Podcast</string>
+    <string name="action_removePodcast">Supprimer le podcast média</string>
     <string name="action_openInBrowser">Afficher dans le navigateur internet</string>
     <string name="action_Share">Partager</string>
     <string name="action_login">Paramètres du serveur</string>
@@ -84,11 +86,15 @@
     <string name="action_feed_rename">Renommer le Flux</string>
     <string name="action_feed_move">Déplacer le Flux</string>
     <string name="action_feed_notification_settings">Paramètres de notification</string>
+    <string name="action_feed_open_in">Paramètres d’ouverture</string>
+    <string name="action_feed_open_in_general_setting">Utilisez les paramètres généraux</string>
+    <string name="action_feed_open_in_detailed_view">Vue détaillée</string>
     <string name="feed_remove_button">Retirer</string>
     <string name="feed_rename_button">Renommer</string>
     <string name="confirm_feed_remove">Voulez-vous vraiment retirer ce flux ? Cela ne pourra pas être annulé !</string>
     <string name="feed_move_list_description">Sélectionner le dossier dans lequel déplacer le flux</string>
     <string name="move_feed_root_folder">Dossier racine</string>
+
 
     <!-- Strings related to FolderOptionsDialogFragment (Rename/Remove folder) -->
     <string name="action_folder_remove">Supprimer le dossier</string>
@@ -110,12 +116,12 @@
     <!-- Strings related to login -->
     <string name="login_manual">Connexion manuelle</string>
     <string name="login_sso">Se connecter avec l\'application Nextcloud Files</string>
-    <string name="pref_title_username">Nom d\'utilisateur</string>
+    <string name="pref_title_username">Nom d’utilisateur</string>
     <string name="pref_title_password">Mot de passe</string>
     <string name="pref_title_owncloudRootPath">adresse racine d\'ownCloud</string>
     <string name="pref_default_owncloudRootPath">https://1.2.3.4/owncloud</string>
 
-    <string name="action_sign_in_short">S\'identifier</string>
+    <string name="action_sign_in_short">S’identifier</string>
     <string name="login_progress_signing_in">Connexion ...</string>
     <!-- <string name="error_incorrect_password">Incorrect password</string> -->
     <string name="error_field_required">Ce champs est requis</string>
@@ -168,6 +174,7 @@
     <string name="pref_title_MarkAsReadWhileScrolling">Marquer comme lu lors du défilement</string>
     <string name="pref_title_ShowFastActions">Activer les fonctions d\'accès rapide</string>
     <string name="pref_title_OpenInBrowserDirectly">Ignorer la vue détaillée et ouvrir dans un navigateur</string>
+    <string name="pref_title_BackButtonOpensDrawer">Le bouton Retour ouvre le dossier</string>
 
     <!-- MemorizingTrustManager -->
     <string name="mtm_accept_cert">Accepter les certificats non sûrs ?</string>
@@ -182,7 +189,11 @@
     <string name="exit_playback">Quitter le lecteur</string>
     <string name="podcast_playback_speed_dialog_title">Vitesse de lecture</string>
     <string name="notification_downloading_podcast_title">Téléchargement du podcast</string>
-
+    <string name="dialog_podcast_remove_title">Êtes-vous sûr ?</string>
+    <string name="dialog_podcast_remove_body">Voulez-vous supprimer les médias téléchargés pour %1$s ?</string>
+    <string name="dialog_podcast_status_failed">Échec de suppression des médias pour %1$s</string>
+    <string name="dialog_podcast_status_success">Le média pour %1$s a été supprimé</string>
+    <string name="dialog_podcast_remove_confirm">Retirer</string>
 
     <!-- Settings for About -->
     <string name="pref_header_about">À propos</string>
@@ -194,6 +205,8 @@
     <string name="pref_contribute_summary">Obtenir le code source</string>
     <string name="pref_privacy">Vie privée</string>
     <string name="pref_privacy_summary">Politique de confidentialité de Nextcloud News pour Android</string>
+    <string name="pref_news_policy">Contactez-nous / Politique</string>
+    <string name="pref_news_policy_summary">Politique d\'actualités Nextcloud Actualités Android / Contactez-nous</string>
     <string name="pref_version">Application Android NextCloud News</string>
 
 

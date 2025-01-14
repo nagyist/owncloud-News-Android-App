@@ -19,7 +19,7 @@
 
     <string name="menu_update">Agiorna</string>
     <string name="menu_markAllAsRead">Marca totu comente lèghidu</string>
-    <string name="menu_StartImageCaching">Iscarriga imàgines</string>
+    <string name="menu_StartImageCaching">Iscàrriga immàgines</string>
     <string name="menu_downloadMoreItems">Iscarriga àteros elementos</string>
 
     <string name="tv_showing_cached_version">Mustra sa versione in sa memòria temporànea</string>
@@ -30,11 +30,12 @@
     <string name="action_playPodacst">Riprodue Podcast</string>
     <string name="action_openInBrowser">Aberi in su navigadore Web</string>
     <string name="action_Share">Cumpartzi</string>
-    <string name="action_login">Impostatzione Serbidore</string>
+    <string name="action_login">Cunfiguratzione de su serbidore</string>
     <string name="action_save">Sarva</string>
-    <string name="action_settings">Impostatziones</string>
-    <string name="action_sync_settings">Sincroniza impostatziones</string>
+    <string name="action_settings">Cunfiguratzione</string>
+    <string name="action_sync_settings">Cunfiguratzione de sincronizatzione</string>
     <string name="action_add_new_feed">Agiunghe fonte noa</string>
+    <string name="action_add_new_folder">Agiunghe una cartella noa</string>
     <string name="action_textToSpeech">Letura vocale</string>
     <string name="action_search">Chirca</string>
     <string name="action_download_articles_offline">Iscàrriga artìculos fora de lìnia</string>
@@ -58,15 +59,15 @@
 
 
     <!-- String related to NewsDetail-ContextMenu Items -->
-    <string name="action_img_download">Iscàrriga imàgine</string>
-    <string name="action_img_sharelink">Cumpartzi ligòngiu imàgine</string>
-    <string name="action_img_open">Aberi imàgine in su Navigadore</string>
-    <string name="action_img_copylink">Còpia ligòngiu imàgine</string>
+    <string name="action_img_download">Iscàrriga s\'immàgine</string>
+    <string name="action_img_sharelink">Cumpartzi su ligòngiu de s\'immàgine</string>
+    <string name="action_img_open">Aberi immàgine in su navigadore</string>
+    <string name="action_img_copylink">Còpia su ligòngiu de s\'immàgine</string>
     <string name="action_link_share">Cumpartzi Lingòngiu</string>
     <string name="action_link_open">Aberi Ligòngiu in su Navigadore</string>
     <string name="action_link_copy">Còpia Ligòngiu</string>
-    <string name="toast_img_saved">Imàgines sarvadas</string>
-    <string name="toast_img_notwriteable">Iscritura imàgine faddida.</string>
+    <string name="toast_img_saved">Immàgine sarvada</string>
+    <string name="toast_img_notwriteable">Errore in s\'iscritura de s\'immàgine.</string>
     <string name="toast_copied_to_clipboard">Copiadu in is apuntos</string>
     <string name="error_download_failed">Iscarrigamentu faddidu</string>
     <string name="intent_title_share">Cumpartzi tràmite</string>
@@ -76,12 +77,13 @@
     <string name="action_feed_remove">Boga Fonte</string>
     <string name="action_feed_rename">Torra a numenare Fonte</string>
     <string name="action_feed_move">Tràmuda Fonte</string>
-    <string name="action_feed_notification_settings">Impostatziones de notìfica</string>
+    <string name="action_feed_notification_settings">Cunfiguratzione de notìficas</string>
     <string name="feed_remove_button">Boga</string>
     <string name="feed_rename_button">Torra a numenare</string>
     <string name="confirm_feed_remove">A beru nche cheres bogare custa Fonte? Custu non si podet annullare!</string>
     <string name="feed_move_list_description">Sèbera sa cartella a ue nche cheres tramudare sa fonte</string>
     <string name="move_feed_root_folder">Cartella raighina</string>
+
 
     <string name="action_folder_rename">Torra a numenare sa cartella</string>
     <string name="folder_remove_button">Boga</string>
@@ -110,7 +112,7 @@
     </plurals>
     <string name="toast_no_more_downloads_available">Non ddoe at àteros elementos a disponimentu</string>
     <!-- Strings related to Settings -->
-    <string name="title_activity_settings">Impostatziones</string>
+    <string name="title_activity_settings">Cunfiguratzione</string>
     <string name="cache_is_cleared">Memòria Temporànea lìmpia!</string>
 
 
@@ -138,7 +140,6 @@
     <string name="pref_title_MarkAsReadWhileScrolling">Marca comente lèghidu cando ses iscurrende</string>
     <string name="pref_title_ShowFastActions">Ativa funtziones de atzessu lestru</string>
     <string name="pref_title_OpenInBrowserDirectly">Brinca sa vista a sa minuda e aberi s\'artìculu in su navigadore</string>
-
     <!-- MemorizingTrustManager -->
     <string name="mtm_accept_cert">Cheres atzetare unu tzertificadu disconnotu?</string>
     <string name="mtm_decision_always">Semper</string>
@@ -151,7 +152,8 @@
     <string name="no_chapters_available">Perunu capìtulu a disponimentu</string>
     <string name="podcast_playback_speed_dialog_title">Velotzidade de riprodutzione</string>
     <string name="notification_downloading_podcast_title">Iscarrigamentu podcast</string>
-
+    <string name="dialog_podcast_remove_title">A beru boles sighire?</string>
+    <string name="dialog_podcast_remove_confirm">Boga</string>
 
     <!-- Settings for About -->
     <string name="pref_header_about">In contu de</string>
@@ -163,6 +165,8 @@
     <string name="pref_contribute_summary">Otene su còdighe fonte</string>
     <string name="pref_privacy">Riservadesa</string>
     <string name="pref_privacy_summary">Critèriu de riservadesa de Noas de Nextcloud pro Android</string>
+    <string name="pref_news_policy">Iscrie·nos / Polìtica de noas</string>
+    <string name="pref_news_policy_summary">Polìtica de noas de Nextcloud e Android / Iscrie·nos</string>
     <string name="pref_version">Aplicatzione de Noas de Nextcloud pro Android </string>
 
 

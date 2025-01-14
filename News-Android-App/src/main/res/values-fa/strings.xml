@@ -87,6 +87,7 @@
     <string name="feed_move_list_description">پوشه‌ای برای انتقال خوراک برگزینید</string>
     <string name="move_feed_root_folder">پوشهٔ ریشه</string>
 
+
     <!-- Strings related to FolderOptionsDialogFragment (Rename/Remove folder) -->
     <string name="action_folder_remove">پوشه را حذف کنید.</string>
     <string name="action_folder_rename">تغییر نام پوشه</string>
@@ -163,7 +164,6 @@
     <string name="pref_title_MarkAsReadWhileScrolling">علامت گذاری به عنوان خوانده شده در حال پیمایش</string>
     <string name="pref_title_ShowFastActions">فعال کردن عمل‌کردهای دسترسی سریع</string>
     <string name="pref_title_OpenInBrowserDirectly">پرش از نمای باجزییات و گشودن مقاله در مرورگر</string>
-
     <!-- MemorizingTrustManager -->
     <string name="mtm_accept_cert">پذیرش گواهی‌نامهٔ ناشناس؟</string>
     <string name="mtm_decision_always">همواره</string>
@@ -177,14 +177,15 @@
     <string name="exit_playback">از پخش کننده خارج شوید.</string>
     <string name="podcast_playback_speed_dialog_title">سرعت پخش</string>
     <string name="notification_downloading_podcast_title">بارگیری پادکست</string>
-
+    <string name="dialog_podcast_remove_title">مطمئنی؟</string>
+    <string name="dialog_podcast_remove_confirm">حذف</string>
 
     <!-- Settings for About -->
     <string name="pref_header_about">درباره</string>
     <string name="pref_license">License</string>
     <string name="pref_license_summary">مجوز عمومی GNU Affero (AGPL) نسخه 3</string>
     <string name="pref_report_issue">گزارش یک مسئله</string>
-    <string name="pref_report_issue_summary">به یک حساب GitHub (رایگان) نیاز دارد</string>
+    <string name="pref_report_issue_summary">به یک حساب (رایگان) گیت‌هاب نیاز دارد</string>
     <string name="pref_contribute">مشارکت!</string>
     <string name="pref_contribute_summary">کد منبع را دریافت کنید</string>
     <string name="pref_privacy">حریم خصوصی</string>

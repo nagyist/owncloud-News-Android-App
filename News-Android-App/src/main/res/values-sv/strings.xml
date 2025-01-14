@@ -17,6 +17,7 @@
     <string name="message_bar_reload">Uppdatera</string>
     <string name="allUnreadFeeds">Alla olästa objekt</string>
     <string name="starredFeeds">Stjärnmärkta objekt</string>
+    <string name="downloadedPodcasts">Nedladdade podcasts</string>
     <string name="title_activity_new_feed">Lägg till flöde</string>
 
     <string name="menu_update">Uppdatera</string>
@@ -30,6 +31,7 @@
     <string name="action_starred">Stjärnmärkt</string>
     <string name="action_read">Läsa</string>
     <string name="action_playPodacst">Spela Podcast</string>
+    <string name="action_removePodcast">Ta bort Podcast Media</string>
     <string name="action_openInBrowser">Öppna i webbläsare</string>
     <string name="action_Share">Dela</string>
     <string name="action_login">Serverinställningar</string>
@@ -81,11 +83,15 @@
     <string name="action_feed_rename">Döp om Feed</string>
     <string name="action_feed_move">Flytta flöde</string>
     <string name="action_feed_notification_settings">Aviseringsinställningar</string>
+    <string name="action_feed_open_in">Öppna i inställningar</string>
+    <string name="action_feed_open_in_general_setting">Använd allmänna inställningar</string>
+    <string name="action_feed_open_in_detailed_view">Detaljerad vy</string>
     <string name="feed_remove_button">Ta bort</string>
     <string name="feed_rename_button">Byt namn</string>
     <string name="confirm_feed_remove">Vill du verkligen ta bort denna Feed? Det kan inte ångras!</string>
     <string name="feed_move_list_description">Välj mapp för att flytta flöde till</string>
     <string name="move_feed_root_folder">Topp-mapp</string>
+
 
     <!-- Strings related to FolderOptionsDialogFragment (Rename/Remove folder) -->
     <string name="action_folder_remove">Ta bort mapp</string>
@@ -163,6 +169,7 @@
     <string name="pref_title_MarkAsReadWhileScrolling">Markera som läst vid bläddring</string>
     <string name="pref_title_ShowFastActions">Aktivera snabbåtkomstsfunktioner</string>
     <string name="pref_title_OpenInBrowserDirectly">Hoppa över detaljerad vy och öppna artikeln i webbläsare</string>
+    <string name="pref_title_BackButtonOpensDrawer">Bakåtknappen öppnar panelen</string>
 
     <!-- MemorizingTrustManager -->
     <string name="mtm_accept_cert">Acceptera okänt certifikat?</string>
@@ -177,7 +184,11 @@
     <string name="exit_playback">Stäng mediaspelaren</string>
     <string name="podcast_playback_speed_dialog_title">Uppspelningshastighet</string>
     <string name="notification_downloading_podcast_title">Hämtar podcast</string>
-
+    <string name="dialog_podcast_remove_title">Är du säker?</string>
+    <string name="dialog_podcast_remove_body">Vill du ta bort nedladdad media för %1$s?</string>
+    <string name="dialog_podcast_status_failed">Misslyckades med att ta bort media för %1$s</string>
+    <string name="dialog_podcast_status_success">Media för %1$s har tagits bort</string>
+    <string name="dialog_podcast_remove_confirm">Ta bort</string>
 
     <!-- Settings for About -->
     <string name="pref_header_about">Om</string>
@@ -189,6 +200,8 @@
     <string name="pref_contribute_summary">Hämta källkoden</string>
     <string name="pref_privacy">Integritet</string>
     <string name="pref_privacy_summary">Nextcloud Nyheter Android Integritetspolicy</string>
+    <string name="pref_news_policy">Kontakta oss / Nyhetspolicy</string>
+    <string name="pref_news_policy_summary">Nextcloud Nyheter Android Nyhetspolicy / Kontakta oss</string>
     <string name="pref_version">Nextcloud Nyheter Android-app</string>
 
 

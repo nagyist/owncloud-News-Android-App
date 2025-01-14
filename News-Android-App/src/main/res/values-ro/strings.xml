@@ -90,6 +90,7 @@
     <string name="feed_move_list_description">Seleactează dosarul în care dorești să muți feed-ul</string>
     <string name="move_feed_root_folder">Folder principal</string>
 
+
     <!-- Strings related to FolderOptionsDialogFragment (Rename/Remove folder) -->
     <string name="action_folder_remove">Șterge dosarul</string>
     <string name="action_folder_rename">Redenumește dosar</string>
@@ -113,7 +114,7 @@
     <string name="pref_title_username">Nume utilizator</string>
     <string name="pref_title_password">Parolă</string>
     <string name="pref_title_owncloudRootPath">Adresa principală Nextcloud</string>
-    <string name="pref_default_owncloudRootPath">https://1.2.3.4/owncloud</string>
+    <string name="pref_default_owncloudRootPath">https://1.2.3.4/nextcloud</string>
 
     <string name="action_sign_in_short">Înregistraţi-vă</string>
     <string name="login_progress_signing_in">Autentificare ...</string>
@@ -166,7 +167,6 @@
     <string name="pref_title_MarkAsReadWhileScrolling">Marchează ca citit in timpul derulării</string>
     <string name="pref_title_ShowFastActions">Activați funcția de acces rapid</string>
     <string name="pref_title_OpenInBrowserDirectly">Sari peste vizualizarea detaliată și deschide articole în browser</string>
-
     <!-- MemorizingTrustManager -->
     <string name="mtm_accept_cert">Accepta Certificat Necunoscut?</string>
     <string name="mtm_decision_always">Întotdeauna</string>
@@ -180,7 +180,7 @@
     <string name="exit_playback">Ieși din player</string>
     <string name="podcast_playback_speed_dialog_title">Viteză de redare</string>
     <string name="notification_downloading_podcast_title">Se descarcă podcast-ul</string>
-
+    <string name="dialog_podcast_remove_confirm">Elimină</string>
 
     <!-- Settings for About -->
     <string name="pref_header_about">Despre</string>
@@ -281,7 +281,7 @@
     <string name="array_sync_interval_hour_3">3 ore</string>
     <string name="array_sync_interval_hour_6">6 ore</string>
     <string name="array_sync_interval_hour_12">12 ore</string>
-    <string name="array_sync_interval_hour_24">14 de ore</string>
+    <string name="array_sync_interval_hour_24">24 de ore</string>
     <string name="switch_account">Schimbă contul</string>
     
     <string name="successfully_exported">Exportat cu succes în:</string>
